@@ -1,0 +1,26 @@
+<body>
+  
+  <div class="site-wrapper">
+    <header class="main-header background-image">
+      <nav class="main-nav overlay clearfix">
+        <a href="http://gmihguild.com" class="blog-logo"><span class="light-text">GM</span><span class="accent-text">iH</span></a>
+        <div class="nav-container">
+          <a href="/about" class="menu-button">About</a>
+          <a href="/raiding" class="menu-button">Raiding</a>
+          <a href="http://forums.gmihguild.com" class="menu-button forum-button">Forums</a>
+        </div>
+      </nav>
+      <div class="vertical">
+        <div class="main-header-content inner">
+        {% if page.url == "/" %}
+          <h1 class="page-title"><span class="light-text">Great Men</span> <span class="accent-text break-small">in History</span></h1>
+          <h2 class="page-description">Proudmoore - US</h2>
+          <a class="typeform-share button gmih header-button" href="http://forums.gmihguild.com/recruiting/create_apply.php?gid=505955">Apply Now</a>
+        </div>
+      </div>
+        <a href="#content" data-offset="-45" class="scroll-down icon-arrow-left"><span class="hidden">Scroll Down</span></a>
+        {% else %}
+          <h1 class="page-title">{{ page.title }}</h1>
+        {% endif %}
+    </header>
+
