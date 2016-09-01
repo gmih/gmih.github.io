@@ -1,3 +1,34 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Our variables
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #111;
+$background-color: #F0F0F0;
+$brand-color:      #4A90E2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+
+
+
 /* ==========================================================================
    Table of Contents
    ========================================================================== */
@@ -75,8 +106,8 @@ input::-moz-focus-inner {
 
 @font-face {
   font-family: "casper-icons";
-  src: url("fonts/casper-icons.eot?v=1");
-  src: url("fonts/casper-icons.eot?v=1#iefix") format("embedded-opentype"), url("fonts/casper-icons.woff?v=1") format("woff"), url("fonts/casper-icons.ttf?v=1") format("truetype"), url("fonts/casper-icons.svg?v=1#icons") format("svg");
+  src: url("../fonts/casper-icons.eot?v=1");
+  src: url("../fonts/casper-icons.eot?v=1#iefix") format("embedded-opentype"), url("../fonts/casper-icons.woff?v=1") format("woff"), url("../fonts/casper-icons.ttf?v=1") format("truetype"), url("../fonts/casper-icons.svg?v=1#icons") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -90,6 +121,8 @@ input::-moz-focus-inner {
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
+  position: relative;
+  bottom: 7px;
   line-height: 1;
   text-decoration: none !important;
   -webkit-font-smoothing: antialiased;
@@ -116,7 +149,7 @@ input::-moz-focus-inner {
 html {
   height: 100%;
   max-height: 100%;
-  font-size: 62.5%;
+  font-size: 16px;
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -125,8 +158,8 @@ body {
   max-height: 100%;
   font-family: "Merriweather", serif;
   letter-spacing: 0.01rem;
-  font-size: 1.8rem;
-  line-height: 1.75em;
+  font-size: 1rem;
+  line-height: 1.6875;
   color: #3A4145;
   -webkit-font-feature-settings: 'kern' 1;
   -moz-font-feature-settings: 'kern' 1;
@@ -143,7 +176,7 @@ body {
 }
 
 h1,
-h2, h3 {
+h2, h3, h4, h5, h6 {
   -webkit-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
   -moz-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
   -o-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
@@ -155,14 +188,22 @@ h2, h3 {
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 3rem;
   letter-spacing: -2px;
   text-indent: -3px;
 }
 
 h2 {
-  font-size: 3.6rem;
+  font-size: 2rem;
   letter-spacing: -1px;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1rem;
 }
 
 a {
@@ -222,12 +263,6 @@ margin on the iframe, cause it breaks stuff. */
   margin: 0 auto;
 }
 
-/* Centres vertically yo. (IE8+) */
-
-.vertical {
-  display: table-cell;
-  vertical-align: middle;
-}
 
 /* Wraps the main content & footer */
 
@@ -277,16 +312,19 @@ margin on the iframe, cause it breaks stuff. */
 
 /* Big cover image on the home page */
 
+.vertical {
+  margin: 7rem 0;
+}
+
 .main-header {
   position: relative;
-  display: table;
   width: 100%;
-  height: 60vh;
   text-align: center;
   background: #222 no-repeat center center;
   background-size: cover;
   overflow: hidden;
-  background-image: url('images/background-image.png');
+  background-image: url('../images/background-image.jpg');
+  background-position: 50% 28%;
 }
 
 .main-header .inner {
@@ -295,7 +333,7 @@ margin on the iframe, cause it breaks stuff. */
 
 .main-nav {
   position: relative;
-  padding: 35px 40px;
+  padding: 35px 40px 0;
   margin: 0 0 30px 0;
 }
 
@@ -311,7 +349,7 @@ margin on the iframe, cause it breaks stuff. */
   z-index: 100;
   bottom: 45px;
   left: 50%;
-  margin-left: -16px;
+  margin-left: -17px;
   width: 34px;
   height: 34px;
   font-size: 34px;
@@ -342,7 +380,6 @@ margin on the iframe, cause it breaks stuff. */
 
 .blog-logo {
   display: block;
-  float: left;
   background: none !important;
   /* Makes sure there is never a background */
   border: none !important;
@@ -354,18 +391,26 @@ margin on the iframe, cause it breaks stuff. */
   font-family: "Merriweather", serif;
 }
 
+@media (min-width: 400px) {
+  .blog-logo {
+    float: left;
+  }
+
+  .nav-container {
+    float: right;
+  }
+}
+
 .menu-button {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   display: inline-block;
-  float: right;
   height: 38px;
   padding: 0 15px;
-  border-style: solid;
-  border-width: 1px;
   opacity: 1;
   text-align: center;
+  border: 1px solid transparent;
   font-size: 12px;
   text-transform: uppercase;
   line-height: 35px;
@@ -373,9 +418,14 @@ margin on the iframe, cause it breaks stuff. */
   border-radius: 3px;
   transition: all 0.5s ease;
   font-family: "Open Sans", sans-serif;
-  border-color: #F0F0F0;
   color: #F0F0F0;
   font-weight: bold;
+}
+
+.forum-button {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #F0F0F0;
 }
 
 .menu-button:before {
@@ -399,11 +449,6 @@ margin on the iframe, cause it breaks stuff. */
 /* Special styles when overlaid on an image*/
 
 .main-nav.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 70px;
   border: none;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
 }
@@ -412,17 +457,27 @@ margin on the iframe, cause it breaks stuff. */
 
 .page-title {
   margin: 10px 0 10px 0;
-  font-size: 5rem;
-  letter-spacing: -1px;
+  font-size: 2rem;
+  letter-spacing: 0;
   font-weight: 700;
   font-family: "Merriweather", serif;
   color: #4A90E2;
   text-transform: uppercase;
 }
 
+@media (min-width: 481px) {
+  .page-title {
+    font-size: 3rem;
+  }
+}
+
+.page-content {
+  background: $background-color;
+}
+
 .page-description {
   margin: 0;
-  font-size: 2rem;
+  font-size: 1.3rem;
   line-height: 1.5em;
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
@@ -440,7 +495,7 @@ margin on the iframe, cause it breaks stuff. */
   width: 80%;
   max-width: 710px;
   margin: auto;
-  padding: 12rem 0;
+  padding: 5rem 0;
   word-wrap: break-word;
 }
 
@@ -461,9 +516,7 @@ margin on the iframe, cause it breaks stuff. */
   box-shadow: #4A90E2 0 0 0 5px;
 }
 
-body:not(.post-template) .post-title {
-  font-size: 3.6rem;
-}
+
 
 .home__post-title {
   text-align: center;
@@ -504,10 +557,15 @@ body:not(.post-template) .post-title {
 
 .typeform-share.button.gmih.header-button {
   margin-top: 5rem;
+  margin-bottom:5rem;
 }
 
 .small-text {
-  font-size:1.4rem;
+  font-size:0.8rem;
+}
+
+.divider {
+  margin: 3rem 0;
 }
 
 /* ==========================================================================
@@ -583,7 +641,6 @@ body:not(.post-template) .post-title {
 
 .site-footer {
   position: relative;
-  margin: 8rem 0 0 0;
   padding: 1rem 15px;
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
@@ -610,7 +667,6 @@ body:not(.post-template) .post-title {
 
 .copyright {
   display: block;
-  width: 45%;
   float: left;
 }
 
@@ -624,40 +680,10 @@ body:not(.post-template) .post-title {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     height: auto;
-    min-height: 240px;
-    height: 60vh;
-    padding: 15% 0;
   }
 
   .scroll-down {
     display: none;
-  }
-
-  .page-title {
-    font-size: 4rem;
-    letter-spacing: -1px;
-  }
-
-  .page-description {
-    font-size: 1.8rem;
-    line-height: 1.5em;
-  }
-
-  .post {
-    font-size: 0.95em;
-  }
-
-  body:not(.post-template) .post-title {
-    font-size: 3.2rem;
-  }
-
-  h1 {
-    font-size: 4.5rem;
-    text-indent: -2px;
-  }
-
-  h2 {
-    font-size: 3.6rem;
   }
 }
 
@@ -666,16 +692,8 @@ body:not(.post-template) .post-title {
    ========================================================================== */
 
 @media only screen and (max-width: 500px) {
-  .main-header {
-    margin-bottom: 15px;
-    height: 40vh;
-  }
 
   .main-nav {
-    padding: 5px;
-  }
-
-  .blog-logo {
     padding: 5px;
   }
 
@@ -692,54 +710,61 @@ body:not(.post-template) .post-title {
 
   .post {
     width: auto;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
     margin-left: 16px;
     margin-right: 16px;
     padding: 4rem 0;
     line-height: 1.65em;
-  }
-
-  p {
-    font-size: 0.95em;
-    margin: 0 0 2.5rem 0;
-  }
-
-  .page-title {
-    font-size: 3rem;
-  }
-
-  .page-description {
-    font-size: 1.6rem;
-  }
-
-  h1,
-  h2 {
-    margin: 0 0 0.3em 0;
-  }
-
-  h1 {
-    font-size: 2.8rem;
-    letter-spacing: -1px;
-  }
-
-  h2 {
-    font-size: 2.4rem;
-    letter-spacing: 0;
-  }
-
-  body:not(.post-template) .post-title {
-    font-size: 2.5rem;
-  }
-
-  .site-footer {
-    margin-top: 3rem;
   }
 }
 
 .no-list {
   list-style-type:none;
   padding:0;
+}
+
+// Header Links
+
+/*!
+ *  Font Awesome 4.1.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+
+.docs h2 {
+  margin-left: -1.5rem;
+}
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.1.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.1.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff?v=4.1.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.1.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.fa {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.fa-link:before {
+  content: "\f0c1";
+}
+/*
+ * This code is courtesy Ben Balter, modified by Parker Moore for jekyllrb.com
+ * http://ben.balter.com/2014/03/13/pages-anchor-links/
+ */
+.header-link {
+  position: relative;
+  right: 0.5rem;
+  bottom: 2px;
+  font-size: 1.5rem;
+  color: #4A90E2;
+}
+
+.header-link:hover {
+  color: #4A4A4A;
 }
 
 /* ==========================================================================
