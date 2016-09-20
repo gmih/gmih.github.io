@@ -37,9 +37,6 @@ These members contribute to the guild in special roles and help keep the guild r
 - Savv
   - Master Looter
   - Keeper of all things Krap
-- Lachupacabra
-  - Ranged Lead
-  - Connoisseur of Fiery Ground Effects
 
 
 ### Legionnaire - Core Raid Member
@@ -52,8 +49,8 @@ Citizens are welcome to move into the Legionnaire rank, and will need to PM an o
 
 We’d love to help every Citizen become a Legionnaire when and if they want to. If we have concerns, we’ll provide you with guidance and resources so that you know exactly what you can work on.
 
-### NOXIN
-Social rank guild members. Named after Noxin, our most social guild member. This is our friends and family guild rank, and members will need to let an officer know that they want to raid and go through a short trial to become a Citizen or Legionnaire.
+### Social
+This is our friends and family guild rank, and members will need to let an officer know that they want to raid and go through a short trial to become a Citizen or Legionnaire.
 
 ### Senator Servant
 Officer Alts.
