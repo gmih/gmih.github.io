@@ -270,7 +270,7 @@ margin on the iframe, cause it breaks stuff. */
   position: relative;
   z-index: 10;
   min-height: 100%;
-  background: #2C2C2C;
+  background: #f0f0f0;
   -webkit-transition: -webkit-transform 0.5s ease;
   transition: transform 0.5s ease;
 }
@@ -302,7 +302,8 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .home-section.about,
-.home-section.recruitment {
+.home-section.recruitment,
+.home-section.progression {
   background: #F0F0F0;
 }
 
@@ -514,12 +515,19 @@ margin on the iframe, cause it breaks stuff. */
   margin-left: -5px;
   background: #4A90E2;
   box-shadow: #4A90E2 0 0 0 5px;
+  z-index:10;
 }
 
 
 
 .home__post-title {
   text-align: center;
+  text-transform: uppercase;
+  
+}
+
+.color-accent {
+  color: $brand-color;
 }
 
 .typeform-share.button.gmih {
@@ -645,7 +653,8 @@ margin on the iframe, cause it breaks stuff. */
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
   line-height: 1.75em;
-  color: #F0F0F0;
+  font-size: 12px;
+  background: #2C2C2C;
 }
 
 .site-footer a {
@@ -655,7 +664,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .site-footer a:hover {
-  border-bottom: #4A90E2 1px solid;
+  color: #3A4145;
 }
 
 .poweredby {
@@ -667,7 +676,7 @@ margin on the iframe, cause it breaks stuff. */
 
 .copyright {
   display: block;
-  float: left;
+  float: right;
 }
 
 /* ==========================================================================

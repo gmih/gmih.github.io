@@ -10,7 +10,7 @@ Great Men in History is a semi-casual raiding guild. We raid every Friday night 
 
 Originally formed in January of 2008 on Destromath, Great Men in History rerolled as an Alliance guild on Proudmoore in September of 2015. Many of our members started playing in Vanilla, and we’re a “serious raiding guild”-turned-”casual raiding guild” (with the love of min-maxing firmly intact). We’re a mature group of players looking for friendly (and competent) team members to fill out our roster for Legion raiding.
 
-The Great Scrabble Champion Odysseus “Ecplecticos” (Google that one for lols) came up with this name and now we’re stuck with it.  Characters named after hilarious or unfortunate historical figures are encouraged though not required.
+The Great Scrabble Champion Odysseus “Ecplecticos” (Google that one for lols) came up with this name and now we’re stuck with it.  Characters named after hilarious or unfortunate historical figures are encouraged though not required. **All genders welcome.**
 
 <hr class="divider">
 
