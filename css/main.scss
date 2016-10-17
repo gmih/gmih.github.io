@@ -311,6 +311,40 @@ margin on the iframe, cause it breaks stuff. */
   background: #2C2C2C;
 }
 
+.boss-images {
+  text-align:center;
+}
+
+.boss-image-container {
+  position: relative;
+  margin:5px;
+  display:inline-block;
+  width:86px;
+  vertical-align:top;
+}
+
+.boss-image {
+  border:3px solid #4A90E2;
+
+}
+
+.defeated {
+  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 100 100'><path d='M100 0 L0 100 ' stroke='#4A90E2' stroke-width='3'/><path d='M0 0 L100 100 ' stroke='#4A90E2' stroke-width='3'/></svg>");
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size: 100% 100%, auto;
+    width: 86px;
+    height:86px;
+    position:absolute;
+    z-index:20;
+}
+
+.boss-image-text {
+      font-size: 11px;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    line-height: 1.3;
+}
 /* Big cover image on the home page */
 
 .vertical {
