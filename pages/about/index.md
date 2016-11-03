@@ -43,7 +43,7 @@ These members contribute to the guild in special roles and help keep the guild r
 Legionnaires are our core raid members. They show up on time and prepared, rarely have to miss a raid night, and perform to the level expected of them given their role and class. In return, they get free guild repairs and are guaranteed a raiding spot.
 
 ### Citizen - Raid Ready Members
-Citizens are members of the guild who meet the minimum requirements to raid (ilvl, gemmed/enchanted, etc.) but can’t make the 75% attendance requirement or need some additional guidance with their raid performance. These members are our designated raid alternates and are given raid slots after Legionnaires.
+Citizens are members of the guild who meet the minimum requirements to raid (ilvl, gemmed/enchanted, etc.) but can’t make the 75% attendance requirement or need some additional guidance with their raid performance.
 
 Citizens are welcome to move into the Legionnaire rank, and will need to PM an officer so that we can start the process. Once the officers discuss the rank change and reach a consensus, we’ll either give you Legionnaire rank or give you some concrete feedback to work on.
 
@@ -59,4 +59,4 @@ Officer Alts.
 Legionnaire, Citizen, and Social Alts. 
 
 ### Gladiator
-Gladiators are new guild members who are trialing (which apparently is not actually a word) to become Legionnaires. They can become official guild members after 2 raids, and then move into Legionnaire rank after a 2 raid probationary period.
+Gladiators are new guild members who are trialing to become Legionnaires. They can become official guild members after 2 raids, and then move into Legionnaire rank after a 2 raid probationary period.

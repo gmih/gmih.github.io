@@ -23,7 +23,6 @@ Our raid roster will generally consist of Legionnaires with Citizens added on a 
 - Study up on strategies before the raid. GMiH strats will be posted on the forums and you can feel free to ask any questions or discuss any concerns you have there.
 - Install and use Ventrilo.
 - Install and use the following addons:
-  - [RCLootCouncil](https://mods.curse.com/addons/wow/rclootcouncil) (No loot given out to those who don’t have this addon).
   - [DBM](https://mods.curse.com/addons/wow/deadly-boss-mods)
   - Future encounter-specific addons as needed
 - Have a good attitude. Everyone gets frustrated, but don’t take it out on your teammates.
@@ -37,6 +36,8 @@ Great Men in History expects that Legionnaires will maintain an attendance recor
 Every week, you can earn a maximum of 1 attendance point. This point can come from attending either a Friday or Saturday raid. We expect that you'll try to make as many raids as you can, but we don't want to penalize you for having an off schedule.
 
 If you’re going to miss a raid, please post in the “Truancy” sub-forum as soon as possible.
+
+An updated Attendance record can be found in the Link section on the forum sidebar.
 
 ### Behavior
 - While we are a mature guild that allows mature (or rather immature) humor and profanity, please help keep the guild a harassment-free space for everyone. Great Men in History prohibits harassment based on performance, gender, gender identity and expression, sexual orientation, disability, body size, race, or religion (or lack thereof). If someone asks you to stop, or you’re lashing out in anger, be willing to apologize and move on.
@@ -68,19 +69,16 @@ Great Men in History has a limited raid schedule, so it’s incredibly important
 <hr class="divider">
 
 ## Loot
-We use [RCLootCouncil](https://mods.curse.com/addons/wow/rclootcouncil) to handle loot in raids. Please make sure to install it so you can get loot.
-
-Raid members will create a “Best in Slot” list based on guidelines from the Loot Master. Raid members must have a BiS list in order to be considered for loot.
-
 Loot is given out to raid members based on the following criteria:
 
-### Best in Slot and Main Spec Upgrades
+### Main Spec Upgrades
 
 - Legionnaire > Citizen > Gladiator > Social
-- BiS > MS Upgrade
 - Loot History 
-  - Your loot history will be a snapshot of how often you’ve received gear in the past compared to someone else. Only BiS and MS upgrades count toward your loot score.
+  - Your loot history will be a snapshot of how often you’ve received gear in the past compared to someone else. Only MS upgrades count toward your loot score.
   - This number will be reset for each raid tier.
+
+Generally speaking, members will be asked to roll off on items. We do not award loot using DKP or similar systems because we manage attendance and performance issues separately. If Loot History gets too unbalanced, we may award gear without a roll-off to help correct the imbalance. And updated account of the guild's Loot History can be found in the Link section of the forum sidebar.
 
 ### Offspec, Sidegrade, and Transmog — Roll-off
 - Official Offspec Raider > Sidegrade > Transmog
