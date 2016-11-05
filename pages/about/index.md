@@ -59,4 +59,4 @@ Officer Alts.
 Legionnaire, Citizen, and Social Alts. 
 
 ### Gladiator
-Gladiators are new guild members who are trialing to become Legionnaires. They can become official guild members after 2 raids, and then move into Legionnaire rank after a 2 raid probationary period.
+Gladiators are new guild members who are trialing to become Legionnaires. After a month probationary period, they can become full-fledged Legionnaires.
