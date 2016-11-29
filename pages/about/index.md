@@ -34,13 +34,15 @@ These members contribute to the guild in special roles and help keep the guild r
   - Recruitment Officer
   - Melee Lead
   - Official Bookkeeper
-- Savv
+- Crowlle
   - Master Looter
   - Keeper of all things Krap
 
 
 ### Legionnaire - Core Raid Member
 Legionnaires are our core raid members. They show up on time and prepared, rarely have to miss a raid night, and perform to the level expected of them given their role and class. In return, they get free guild repairs and are guaranteed a raiding spot.
+
+Rank changes to Legionnaire are discussed after raids and are based on not only meeting minimum ilvl but performing well and meeting attendance goals.
 
 ### Citizen - Raid Ready Members
 Citizens are members of the guild who meet the minimum requirements to raid (ilvl, gemmed/enchanted, etc.) but can’t make the 75% attendance requirement or need some additional guidance with their raid performance.
