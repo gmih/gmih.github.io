@@ -20,6 +20,8 @@ Our raid roster will generally consist of Legionnaires with Citizens added on a 
 ## Raiding Expectations
 - Invites start going out at 5:45pm PST. Please be in the raid zone by 6pm PST and ready to pull.
 - Maintain a reasonable rate of attendance (75%+).
+- ilvl 875+
+- Artifact Traits at 35+
 - Study up on strategies before the raid. GMiH strats will be posted on the forums and you can feel free to ask any questions or discuss any concerns you have there.
 - Install and use Ventrilo.
 - Install and use the following addons:
@@ -55,6 +57,7 @@ Great Men in History has a limited raid schedule, so it’s incredibly important
 
 - Know your class. 
   - Use your potions, healthstones, dispels, cooldowns, etc.
+  - Keep up with your Artifact Points.
   - Perform well with respect to your class and role. If you’re having issues getting to where you think you should be performing, please get in touch with an officer for tips, guidelines, and help with learning strategies.
   - Research your class and be aware of which specs are underperforming. Spec accordingly.
   - Talk to your fellow teammates. Sharing what works and what doesn’t is how we all get better.
