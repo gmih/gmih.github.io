@@ -76,15 +76,12 @@ Loot is given out to raid members based on the following criteria:
 
 ### Main Spec Upgrades
 
-- Legionnaire > Citizen > Gladiator > Social
-- Loot History 
-  - Your loot history will be a snapshot of how often you’ve received gear in the past compared to someone else. Only MS upgrades count toward your loot score.
-  - This number will be reset for each raid tier.
+Every core raider is equally deserving of loot, and so we reward loot based on your loot history. Loot History is simply a snapshot of how much gear you've received vs how many raids you've been able to attend. It’s important to us that people feel rewarded for the time they spend in raids. This number will be reset for each raid tier.
 
-Generally speaking, members will be asked to roll off on items. We do not award loot using DKP or similar systems because we manage attendance and performance issues separately. If Loot History gets too unbalanced, we may award gear without a roll-off to help correct the imbalance. An updated account of the guild's Loot History can be found in the Link section of the forum sidebar.
+Raid members will speak up when they see an item that they want, and the item will be awarded based on your loot history. If there's a Loot History tie, raid members will roll for the upgrade. An updated account of the guild's Loot History can be found in the Link section of the forum sidebar.
 
 ### Offspec, Sidegrade, and Transmog — Roll-off
 - Official Offspec Raider > Sidegrade > Transmog
-  - Official Offspec Raiders are people who perform multiple roles in our guild. (For example, we may have a designated off-tank and off-healer to help with raid progression.) Citizens have the same priority as Legionnaires do for offspec, sidegrades, and transmog gear.
+  - Official Offspec Raiders are people who perform multiple roles in our guild. (For example, we may have a designated off-tank and off-healer to help with raid progression.)
 
 If you’re unhappy with a loot decision, contact the Loot Master (Crowlle) after raid in-game or by forum PM to explain your concern. From there, officers will discuss the issue and get back to you. It's important for us to hear your concerns and make our loot system better over time.
