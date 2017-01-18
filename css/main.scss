@@ -207,12 +207,12 @@ h4 {
 }
 
 a {
-  color: #4A4A4A;
+  color: $brand-color;
   transition: color 0.3s ease;
 }
 
 a:hover {
-  color: #111;
+  color: $background-color;
 }
 
 p {
@@ -304,11 +304,11 @@ margin on the iframe, cause it breaks stuff. */
 .home-section.about,
 .home-section.recruitment,
 .home-section.progression {
-  background: #F0F0F0;
+  background: #2C2C2C;
 }
 
 .home-section.raiding {
-  background: #2C2C2C;
+  background: #F0F0F0;
 }
 
 .boss-images {
@@ -688,7 +688,6 @@ margin on the iframe, cause it breaks stuff. */
   font-size: 1rem;
   line-height: 1.75em;
   font-size: 12px;
-  background: #2C2C2C;
 }
 
 .site-footer a {
