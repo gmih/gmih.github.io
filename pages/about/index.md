@@ -40,25 +40,18 @@ These members contribute to the guild in special roles and help keep the guild r
 
 
 ### Legionnaire - Core Raid Member
-Legionnaires are our core raid members. They show up on time and prepared, rarely have to miss a raid night, and perform to the level expected of them given their role and class. In return, they get free guild repairs and are guaranteed a raiding spot.
+Legionnaires are our core raid members. They show up on time and prepared, rarely have to miss a raid night, and perform to the level expected of them given their role and class. In return, they get free guild repairs.
 
 Rank changes to Legionnaire are discussed after raids and are based on not only meeting minimum ilvl but performing well and meeting attendance goals.
 
-### Citizen - Raid Ready Members
-Citizens are members of the guild who meet the minimum requirements to raid (ilvl, gemmed/enchanted, etc.) but can’t make the 75% attendance requirement or need some additional guidance with their raid performance.
-
-Citizens are welcome to move into the Legionnaire rank, and will need to PM an officer so that we can start the process. Once the officers discuss the rank change and reach a consensus, we’ll either give you Legionnaire rank or give you some concrete feedback to work on.
-
-We’d love to help every Citizen become a Legionnaire when and if they want to. If we have concerns, we’ll provide you with guidance and resources so that you know exactly what you can work on.
-
 ### Social
-This is our friends and family guild rank, and members will need to let an officer know that they want to raid and go through a short trial to become a Citizen or Legionnaire.
+This is our friends and family guild rank, and members will need to let an officer know that they want to raid and go through a short trial to become a Legionnaire.
 
 ### Senator Servant
 Officer Alts.
 
 ### Servant
-Legionnaire, Citizen, and Social Alts. 
+Legionnaire and Social Alts. 
 
 ### Gladiator
 Gladiators are new guild members who are trialing to become Legionnaires. After a month probationary period, they can become full-fledged Legionnaires.

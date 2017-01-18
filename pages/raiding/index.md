@@ -13,7 +13,7 @@ permalink: raiding/
 
 ## Raid Roster
 
-Our raid roster will generally consist of Legionnaires with Citizens added on a case-by-case basis. Once raids are on farm, we’ll open up opportunities for raiding to prepared alts and social members.
+Our raid roster will generally consist of Legionnaires with the occasional trial member. Once raids are on farm, we’ll open up opportunities for raiding to prepared social members.
 
 <hr class="divider">
 
