@@ -65,7 +65,7 @@ section {
 }
 
 html {
-  font-family: "Merriweather", serif;
+  font-family: "Open Sans", sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -156,7 +156,6 @@ html {
 body {
   height: 100%;
   max-height: 100%;
-  font-family: "Merriweather", serif;
   letter-spacing: 0.01rem;
   font-size: 1rem;
   line-height: 1.6875;
@@ -180,7 +179,7 @@ h2, h3, h4, h5, h6 {
   -webkit-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
   -moz-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
   -o-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
-  color: #4A4A4A;
+  color: #FFFFFF;
   line-height: 1.15em;
   margin: 0 0 0.4em 0;
   font-family: "Open Sans", sans-serif;
@@ -222,6 +221,10 @@ p {
   -o-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
   margin: 0 0 1.75em 0;
   text-rendering: geometricPrecision;
+}
+
+img {
+  max-width:100%;
 }
 
 /* When a video is inside the fitvids wrapper, drop the
@@ -611,6 +614,51 @@ margin on the iframe, cause it breaks stuff. */
   margin: 3rem 0;
 }
 
+// Recruitment Icons
+
+.recruitment-icons {
+  padding:0;
+  list-style-type:none;
+  margin: 3rem 0;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-align-items: flex-start;
+   align-items: flex-start;
+   -webkit-justify-content: center;
+   justify-content: center;
+   flex-flow: row wrap;
+}
+
+.recruitment-icon {
+  text-align:center;
+  font-size:14px;
+  width: 50%;
+  color: $brand-color;
+  margin-bottom: 3rem
+}
+
+@media (min-width: 480px) {
+  .recruitment-icon {
+    width: 33%;
+  }
+}
+
+@media (min-width: 786px) {
+  .recruitment-icon {
+    width: 20%;
+  }
+}
+
+.recruitment-image-wrap {
+  display:inline-block;
+}
+
+.class {
+  display:block;
+  line-height:1;
+}
 /* ==========================================================================
    5. Single Post - When you click on an individual post
    ========================================================================== */
