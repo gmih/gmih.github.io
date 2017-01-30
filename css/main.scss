@@ -328,7 +328,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .boss-image {
-  border:3px solid #4A90E2;
+  border:1px solid #4A90E2;
 
 }
 
@@ -337,8 +337,9 @@ margin on the iframe, cause it breaks stuff. */
     background-repeat:no-repeat;
     background-position:center center;
     background-size: 100% 100%, auto;
-    width: 86px;
-    height:86px;
+    width: 82px;
+    height:82px;
+    left: 2px;
     position:absolute;
     z-index:20;
 }
