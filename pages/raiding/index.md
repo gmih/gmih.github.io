@@ -7,7 +7,10 @@ permalink: raiding/
 
 ## Raid Schedule
 - Friday 6pm to 9pm Server Time (Pacific Time Zone).
-- Saturday 9am to Noon Server Time (optional depending on progression).
+- Saturday 9am to Noon Server Time
+
+### Normal Difficulty Alt Run - Completely optional
+Thursdays 6pm to 9pm Server Time (Pacific Time Zone).
 
 <hr class="divider">
 
