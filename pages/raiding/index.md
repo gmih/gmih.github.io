@@ -16,7 +16,7 @@ Thursdays 6pm to 9pm Server Time (Pacific Time Zone).
 
 ## Raid Roster
 
-Our main raid roster consists of Legionnaires with the occasional trial member. Our Thursday Alt/Normal run is open to the anyone in the guild as long as you meet the minimum requirements.
+Our main raid roster consists of Legionnaires with the occasional trial member. Our Thursday Alt/Normal run is open to anyone in the guild as long as you meet the minimum requirements.
 
 <hr class="divider">
 
