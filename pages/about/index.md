@@ -17,7 +17,7 @@ The Great Scrabble Champion Odysseus “Ecplecticos” (Google that one for lols
 ## Guild Ranks
 
 ### César - Guild Master
-Milou, like any good dictator, was once voted into this position but failed to ever relinquish it.  Luckily he is supported by some excellent officers so he can focus on conjuring various spirits from his fiery throne (or icy/arcany...whichever gets buffs).
+Milou, like any good dictator, was once voted into this position but failed to ever relinquish it.  Luckily he is supported by some excellent officers so he can focus on conjuring various spirits from his icy throne (or fiery/arcany...whichever gets buffs).
 
 ### Senator - Guild Officer
 These members contribute to the guild in special roles and help keep the guild running.
@@ -25,6 +25,7 @@ These members contribute to the guild in special roles and help keep the guild r
 - Milou
   - GM
   - Raid Lead
+  - Master Looter
   - Official t-minus score keeper.
 - Rissie
   - Guild/Raid Organizer
@@ -35,7 +36,7 @@ These members contribute to the guild in special roles and help keep the guild r
   - Melee Lead
   - Official Bookkeeper
 - Crowlle
-  - Master Looter
+  - General Officer
   - Keeper of all things Krap
 
 
@@ -54,4 +55,4 @@ Officer Alts.
 Legionnaire and Social Alts. 
 
 ### Gladiator
-Gladiators are new guild members who are trialing to become Legionnaires. After a month probationary period, they can become full-fledged Legionnaires.
+Gladiators are new guild members who are trialing to become Legionnaires. After a 4-raid probationary period, they can become full-fledged Legionnaires.
