@@ -6,11 +6,9 @@ permalink: about/
 ---
 
 
-Great Men in History is a semi-casual raiding guild. We raid every Friday night from 6pm-9pm PT and Saturday mornings from 9am-Noon PT. We also regularly run Mythic+ dungeons together.
+Great Moments in History is a semi-casual raiding guild. We raid every Friday night from 6pm-9pm PT and Saturday mornings from 9am-Noon PT. We also regularly run Mythic+ dungeons together.
 
-Originally formed in January of 2008 on Destromath, Great Men in History rerolled as an Alliance guild on Proudmoore in September of 2015. Many of our members started playing in Vanilla, and we’re a “serious raiding guild”-turned-”casual raiding guild” (with the love of min-maxing firmly intact). We’re a mature group of players looking for friendly (and competent) team members to fill out our roster for Legion raiding.
-
-The Great Scrabble Champion Odysseus “Ecplecticos” (Google that one for lols) came up with this name and now we’re stuck with it.  Characters named after hilarious or unfortunate historical figures are encouraged though not required. **All genders welcome.**
+Originally formed in January of 2008 on Destromath, Great Moments in History rerolled as an Alliance guild on Proudmoore in September of 2015. Many of our members started playing in Vanilla, and we’re a “serious raiding guild”-turned-”casual raiding guild” (with the love of min-maxing firmly intact). We’re a mature group of players looking for friendly (and competent) team members to fill out our roster for Legion raiding.
 
 <hr class="divider">
 
@@ -52,7 +50,7 @@ This is our friends and family guild rank, and members will need to let an offic
 Officer Alts.
 
 ### Servant
-Legionnaire and Social Alts. 
+Legionnaire and Social Alts.
 
 ### Gladiator
 Gladiators are new guild members who are trialing to become Legionnaires. After a 4-raid probationary period, they can become full-fledged Legionnaires.

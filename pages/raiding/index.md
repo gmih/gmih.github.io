@@ -35,12 +35,12 @@ Our main raid roster consists of Legionnaires with the occasional trial member. 
 
 ### Attendance
 
-Great Men in History expects that Legionnaires will maintain an attendance record of 75% or higher. If your attendance drops below 75%, you’ll be notified by an officer. From there, you can either get your attendance back up, or be moved into another rank.
+Great Moments in History expects that Legionnaires will maintain an attendance record of 75% or higher. If your attendance drops below 75%, you’ll be notified by an officer. From there, you can either get your attendance back up, or be moved into another rank.
 
 If you’re going to miss a raid, please post in the “Truancy” sub-forum as soon as possible. Vacations, sick days, etc. are understandable, but please let us know as soon as you know so we can plan the roster accordingly.
 
 ### Behavior
-- While we are a mature guild that allows mature (or rather immature) humor and profanity, please help keep the guild a harassment-free space for everyone. Great Men in History prohibits harassment based on performance, gender, gender identity and expression, sexual orientation, disability, body size, race, or religion (or lack thereof). If someone asks you to stop, or you’re lashing out in anger, be willing to apologize and move on.
+- While we are a mature guild that allows mature (or rather immature) humor and profanity, please help keep the guild a harassment-free space for everyone. Great Moments in History prohibits harassment based on performance, gender, gender identity and expression, sexual orientation, disability, body size, race, or religion (or lack thereof). If someone asks you to stop, or you’re lashing out in anger, be willing to apologize and move on.
 
 - If you are having issues with another raid member, please contact an officer to resolve the issue.
 
@@ -49,11 +49,11 @@ If you’re going to miss a raid, please post in the “Truancy” sub-forum as 
 - Act maturely and responsibly in and outside of raid. You are a representative of our guild, and our guild treats everyone with respect.
 
 ### Performance
-Great Men in History has a limited raid schedule, so it’s incredibly important that everyone comes prepared and ready to perform. We’re happy to help our guildies out as much as possible. Check the forums or Discord for more information about strategies, class discussion, and useful addons/resources.
+Great Moments in History has a limited raid schedule, so it’s incredibly important that everyone comes prepared and ready to perform. We’re happy to help our guildies out as much as possible. Check the forums or Discord for more information about strategies, class discussion, and useful addons/resources.
 
 #### Guidelines for Great Raiding
 
-- Know your class. 
+- Know your class.
   - Use your potions, healthstones, dispels, cooldowns, etc.
   - Keep up with your Artifact Points.
   - Perform well with respect to your class and role. If you’re having issues getting to where you think you should be performing, please get in touch with an officer for tips, guidelines, and help with learning strategies.
@@ -87,7 +87,7 @@ Raid members will speak up when they see an item that they want. Depending on th
 The priority for gear goes "int 2pc", "int 4pc", "int", "minor", "os", "transmog".
 
 ### Offspec, Minor Upgrades, and Transmog
-Your loot history is unaffected by offspec gear, minor upgrades, and transmog. We want people to feel comfortable rolling on anything that will benefit their character, with the understanding that we're gearing the raid team as a whole. 
+Your loot history is unaffected by offspec gear, minor upgrades, and transmog. We want people to feel comfortable rolling on anything that will benefit their character, with the understanding that we're gearing the raid team as a whole.
 
 If there's an item you're not sure about and want to test, let us know. We'll happily pass over sidegrades or items you want to test if no one needs it as a major upgrade. No loot rot!
 

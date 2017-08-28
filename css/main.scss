@@ -291,14 +291,18 @@ margin on the iframe, cause it breaks stuff. */
   color: #F0F0F0;
 }
 
-.break-small {
-  display:block;
+.small-caps {
+  font-size:20px;
 }
 
-@media (min-width:629px) {
-  .break-small {
-    display:inline;
+@media (min-width: 481px) {
+  .small-caps {
+    font-size: 50px;
   }
+}
+
+.break-small {
+  display:block;
 }
 
 .center-align {
@@ -499,7 +503,7 @@ margin on the iframe, cause it breaks stuff. */
   margin: 10px 0 10px 0;
   font-size: 2rem;
   letter-spacing: 0;
-  font-weight: 700;
+  font-weight: 400;
   font-family: "Merriweather", serif;
   color: #4A90E2;
   text-transform: uppercase;
@@ -507,7 +511,8 @@ margin on the iframe, cause it breaks stuff. */
 
 @media (min-width: 481px) {
   .page-title {
-    font-size: 3rem;
+    font-size: 72px;
+    font-weight:700;
   }
 }
 
@@ -562,7 +567,7 @@ margin on the iframe, cause it breaks stuff. */
 .home__post-title {
   text-align: center;
   text-transform: uppercase;
-  
+
 }
 
 .color-accent {
