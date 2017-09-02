@@ -80,6 +80,7 @@ Raid members will speak up when they see an item that they want. Depending on th
 
 - "int" if you're interested in an item as a major upgrade
 - "minor" if it's a minor upgrade and you're comfortable with others winning the item over you
+- "wf" or "tf" to indicate that you'd like to roll on a tier piece in the hopes of an Warforged or Titanforged upgrade. If everyone chooses "wf" or "tf", we'll have a roll-off.
 - "4pc or 2pc" to complete a set bonus
 - "os" if it is off-spec gear
 - "transmog" if you really just like the look of an item (we get it)
