@@ -21,21 +21,18 @@ Our main raid roster consists of Legionnaires with the occasional trial member. 
 <hr class="divider">
 
 ## Raiding Expectations
-- Invites start going out at 5:45pm PST. Please be in the raid zone by 6pm PST and ready to pull.
+- Invites start going out at 5:45pm PST. Please be in the raid zone by 6pm PST and ready to pull the first boss.
 - Maintain a reasonable rate of attendance (75%+).
-- Keep your gear and Artifact up-to-date.
+- Keep your gear and Artifact up-to-date (we highly encourage you to run Mythic+ dungeons with the guild regularly).
 - Study up on strategies before the raid. GMiH strats will be posted on the forums and you can feel free to ask any questions or discuss any concerns you have there.
 - Install and use Discord.
-- Install and use the following addons:
-  - [DBM](https://mods.curse.com/addons/wow/deadly-boss-mods)
-  - Future encounter-specific addons as needed
+- Install and use [DBM](https://mods.curse.com/addons/wow/deadly-boss-mods).
 - Have a good attitude. Everyone gets frustrated, but don’t take it out on your teammates.
-- RSVP to raids using the in-game calendar. RSVP by midnight each Wednesday to secure your raid spot (or else Rissie will harass you).
-- We highly encourage all of our raiders to run Mythic+ dungeons regularly.
+- RSVP to raids using the in-game calendar. RSVP by midnight each Tuesday to secure your raid spot (and avoid Rissey heckling you about rsvp'ing).
 
 ### Attendance
 
-Great Moments in History expects that Legionnaires will maintain an attendance record of 75% or higher. If your attendance drops below 75%, you’ll be notified by an officer. From there, you can either get your attendance back up, or be moved into another rank.
+Great Moments in History expects that Legionnaires will maintain an attendance record of 75% or higher.
 
 If you’re going to miss a raid, please post in the “Truancy” sub-forum as soon as possible. Vacations, sick days, etc. are understandable, but please let us know as soon as you know so we can plan the roster accordingly.
 
@@ -80,7 +77,7 @@ Raid members will speak up when they see an item that they want. Depending on th
 
 - "int" if you're interested in an item as a major upgrade
 - "minor" if it's a minor upgrade and you're comfortable with others winning the item over you
-- "wf" or "tf" to indicate that you'd like to roll on a tier piece in the hopes of an Warforged or Titanforged upgrade. If everyone chooses "wf" or "tf", we'll have a roll-off.
+- "wf" or "tf" to indicate that you'd like to roll on a tier piece in the hopes of a Warforged or Titanforged upgrade. If everyone chooses "wf" or "tf", we'll have a roll-off.
 - "4pc or 2pc" to complete a set bonus
 - "os" if it is off-spec gear
 - "transmog" if you really just like the look of an item (we get it)
@@ -94,4 +91,4 @@ If there's an item you're not sure about and want to test, let us know. We'll ha
 
 For the purposes of our priority and loot history calculation, a minor upgrade is considered to be 10 or fewer ilvls difference from what you have access to. If you REALLY want the item, you can still ask for it as a major upgrade. The decision is up to you.
 
-If you’re unhappy with a loot decision, contact the Loot Master (Milou) after raid in-game or by forum PM to explain your concern. From there, officers will discuss the issue and get back to you. It's important for us to hear your concerns and make our loot system better over time.
+If you’re unhappy with a loot decision, contact the Loot Master (Morstubites) after raid in-game, in Discord, or by forum PM to explain your concern. From there, officers will discuss the issue and get back to you. It's important for us to hear your concerns and make our loot system better over time.

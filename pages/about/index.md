@@ -15,31 +15,30 @@ Originally formed in January of 2008 on Destromath, Great Moments in History rer
 ## Guild Ranks
 
 ### César - Guild Master
-Milou, like any good dictator, was once voted into this position but failed to ever relinquish it.  Luckily he is supported by some excellent officers so he can focus on conjuring various spirits from his icy throne (or fiery/arcany...whichever gets buffs).
+Mortsubites, like any good dictator, was once voted into this position but failed to ever relinquish it.  Luckily he is supported by some excellent officers so he can focus on summoning undead from his unholy throne (or icy...if it gets buffs).
 
 ### Senator - Guild Officer
 These members contribute to the guild in special roles and help keep the guild running.
 
-- Milou
+- Mortsubites
   - GM
   - Raid Lead
   - Master Looter
   - Official t-minus score keeper.
-- Rissie
+- Rissey
   - Guild/Raid Organizer
   - Healing Lead
-  - Tintin’s Dog Walker
 - Interficiens
   - Recruitment Officer
   - Melee Lead
   - Official Bookkeeper
 - Crowlle
-  - General Officer
+  - Bear Tank RAWR!
   - Keeper of all things Krap
 
 
 ### Legionnaire - Core Raid Member
-Legionnaires are our core raid members. They show up on time and prepared, rarely have to miss a raid night, and perform to the level expected of them given their role and class. In return, they get free guild repairs.
+Legionnaires are our core raid members. They show up on time and prepared, rarely have to miss a raid night, and perform to the level expected of them given their role and class. In return, they get free guild repairs, loot priority over trial members, and the knowledge that their life is more complete being on the &lt;GMiH&gt; raid team.
 
 Rank changes to Legionnaire are discussed after raids and are based on not only meeting minimum ilvl but performing well and meeting attendance goals.
 
