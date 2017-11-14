@@ -2,6 +2,7 @@
 layout: page
 title: About
 weight: 1
+nav: yes
 permalink: about/
 ---
 

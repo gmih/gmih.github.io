@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Raiding
-weight: 1
+weight: 2
+nav: yes
 permalink: raiding/
 ---
 
