@@ -3,9 +3,6 @@
 ---
 @charset "utf-8";
 
-// To Do!
-// Finish footer
-
 
 // Our variables
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -388,6 +385,10 @@ margin on the iframe, cause it breaks stuff. */
     margin: 4rem 0;
 }
 
+.default .vertical {
+    margin: 8rem 0;
+}
+
 .main-header {
     position: relative;
     width: 100%;
@@ -646,7 +647,7 @@ margin on the iframe, cause it breaks stuff. */
 
 .typeform-share.button.gmih.header-button {
     margin-top: 5rem;
-    margin-bottom:5rem;
+    margin-bottom:8rem;
 }
 
 .small-text {
