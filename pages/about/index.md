@@ -44,7 +44,7 @@ Legionnaires are our core raid members. They show up on time and prepared, rarel
 Rank changes to Legionnaire are discussed after raids and are based on not only meeting minimum ilvl but performing well and meeting attendance goals.
 
 ### Social
-This is our friends and family guild rank, and members will need to let an officer know that they want to raid and go through a short trial to become a Legionnaire.
+This is our friends and family guild rank. Social rank members can transition to Legionnaire rank by letting an officer know that they want to raid and completing a short trial.
 
 ### Senator Servant
 Officer Alts.

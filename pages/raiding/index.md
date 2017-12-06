@@ -11,13 +11,13 @@ permalink: raiding/
 - Saturday 9am to Noon Server Time
 
 ### Normal Difficulty Alt Run - Completely optional
-Thursdays 6pm to 9pm Server Time (Pacific Time Zone).
+- Thursdays 6pm to 9pm Server Time (Pacific Time Zone).
 
 <hr class="divider">
 
 ## Raid Roster
 
-Our main raid roster consists of Legionnaires with the occasional trial member. Our Thursday Alt/Normal run is open to anyone in the guild as long as you meet the minimum requirements.
+Our main raid roster consists of Legionnaires with the occasional trial member. Our Thursday Alt and Social-friendly Normal run is open to anyone in the guild as long as you meet the minimum requirements.
 
 <hr class="divider">
 
@@ -78,17 +78,16 @@ Raid members will speak up when they see an item that they want. Depending on th
 
 - "int" if you're interested in an item as a major upgrade
 - "minor" if it's a minor upgrade and you're comfortable with others winning the item over you
-- "wf" or "tf" to indicate that you'd like to roll on a tier piece in the hopes of a Warforged or Titanforged upgrade. If everyone chooses "wf" or "tf", we'll have a roll-off.
-- "4pc or 2pc" to complete a set bonus
+- "wf" to indicate that you'd like to roll on a tier piece in the hopes of a Warforged or Titanforged upgrade. If everyone chooses "wf", we'll have a roll-off.
 - "os" if it is off-spec gear
 - "transmog" if you really just like the look of an item (we get it)
 
-The priority for gear goes "int 2pc", "int 4pc", "int", "minor", "os", "transmog".
+The priority for gear is "int", "minor", "os", transmog".
 
 ### Offspec, Minor Upgrades, and Transmog
 Your loot history is unaffected by offspec gear, minor upgrades, and transmog. We want people to feel comfortable rolling on anything that will benefit their character, with the understanding that we're gearing the raid team as a whole.
 
-If there's an item you're not sure about and want to test, let us know. We'll happily pass over sidegrades or items you want to test if no one needs it as a major upgrade. No loot rot!
+If there's an item you're not sure about and want to test, let us know. We'll happily pass over sidegrades or items you want to test if no one needs it as an upgrade. No loot rot!
 
 For the purposes of our priority and loot history calculation, a minor upgrade is considered to be 10 or fewer ilvls difference from what you have access to. If you REALLY want the item, you can still ask for it as a major upgrade. The decision is up to you.
 
