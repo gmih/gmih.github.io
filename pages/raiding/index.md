@@ -78,11 +78,16 @@ Raid members will speak up when they see an item that they want. Depending on th
 
 - "int" if you're interested in an item as a major upgrade
 - "minor" if it's a minor upgrade and you're comfortable with others winning the item over you
-- "wf" to indicate that you'd like to roll on a tier piece in the hopes of a Warforged or Titanforged upgrade. If everyone chooses "wf", we'll have a roll-off.
 - "os" if it is off-spec gear
 - "transmog" if you really just like the look of an item (we get it)
 
 The priority for gear is "int", "minor", "os", transmog".
+
+#### Tier Pieces
+
+We will prioritize 2pc, then 4pc for everyone in the guild.
+
+When a tier piece drops and you want it, roll for it. We track where everyone is on tier and will loot accordingly.
 
 ### Offspec, Minor Upgrades, and Transmog
 Your loot history is unaffected by offspec gear, minor upgrades, and transmog. We want people to feel comfortable rolling on anything that will benefit their character, with the understanding that we're gearing the raid team as a whole.
