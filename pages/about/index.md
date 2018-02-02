@@ -26,7 +26,7 @@ These members contribute to the guild in special roles and help keep the guild r
   - Raid Lead
   - Master Looter
   - Official t-minus score keeper.
-- Rissey
+- Rissi
   - Guild/Raid Organizer
   - Healing Lead
 - Interficiens
