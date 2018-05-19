@@ -7,6 +7,7 @@
     $document.ready(function () {
 
         $(".scroll-down").arctic_scroll();
+        $(".scroll-to-link").arctic_scroll();
 
     });
 

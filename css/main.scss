@@ -5,11 +5,13 @@
 
 
 // Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family: "Open Sans", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
+
+$headline-font-family: Cinzel, Georgia, serif;
 
 $spacing-unit:     30px;
 
@@ -176,7 +178,6 @@ html {
 body {
     height: 100%;
     max-height: 100%;
-    letter-spacing: 0.01rem;
     font-size: 14px;
     line-height: 1.6875;
     color: #3A4145;
@@ -202,19 +203,18 @@ h2, h3, h4, h5, h6 {
     color: #4A4A4A;
     line-height: 1.15em;
     margin: 0 0 0.4em 0;
-    font-family: "Open Sans", sans-serif;
+    font-family: $headline-font-family;
     text-rendering: geometricPrecision;
 }
 
 h1 {
     font-size: 2rem;
-    letter-spacing: -2px;
     text-indent: -3px;
 }
 
+
 h2 {
     font-size: 1.5rem;
-    letter-spacing: -1px;
 }
 
 h3 {
@@ -233,6 +233,10 @@ a {
 
 a:hover {
     color: $background-color;
+}
+
+body.page a:hover {
+    color: $text-color;
 }
 
 p {
@@ -319,16 +323,6 @@ margin on the iframe, cause it breaks stuff. */
     color: #F0F0F0;
 }
 
-.small-caps {
-    font-size:20px;
-}
-
-@media (min-width: 481px) {
-    .small-caps {
-        font-size: 1.9rem;
-    }
-}
-
 .break-small {
     display:block;
 }
@@ -399,8 +393,9 @@ margin on the iframe, cause it breaks stuff. */
     background: #222 no-repeat center center;
     background-size: cover;
     overflow: hidden;
-    background-image: url('../images/background-image.jpg');
-    background-position: 50% 28%;
+    background-image: url('../images/bfa-alliance.jpg');    background-position: 50% 16%;
+    background-color: #2d2d2c;
+    background-blend-mode: multiply;
 }
 
 .main-header .inner {
@@ -464,7 +459,7 @@ margin on the iframe, cause it breaks stuff. */
     line-height: 42px;
     font-weight: 700;
     font-size: 28px;
-    font-family: "Merriweather", serif;
+    font-family: $headline-font-family;
 }
 
 @media (min-width: 625px) {
@@ -532,21 +527,16 @@ margin on the iframe, cause it breaks stuff. */
 
 .page-title {
     margin: 10px 0 10px 0;
-    font-size: 2rem;
-    letter-spacing: 1px;
-    font-weight: 400;
-    font-family: "Merriweather", serif;
     color: #4A90E2;
-    text-transform: uppercase;
 }
 
-@media (min-width: 481px) {
+@media screen and (min-width: 481px) {
 
     body {
         font-size: 1rem;
     }
 
-    .page-title {
+    h1 {
         font-size: 3rem;
         font-weight:700;
     }
@@ -560,6 +550,20 @@ margin on the iframe, cause it breaks stuff. */
     }
 }
 
+@media screen and (min-width:1200px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+}
+
 .page-content {
     background: $background-color;
 }
@@ -570,7 +574,6 @@ margin on the iframe, cause it breaks stuff. */
     line-height: 1.5em;
     font-weight: 400;
     font-family: "Open Sans", sans-serif;
-    letter-spacing: 0.01rem;
     color: rgba(255, 255, 255, 0.8);
     text-transform: uppercase;
 }
@@ -616,7 +619,6 @@ margin on the iframe, cause it breaks stuff. */
 
 .home__post-title {
     text-align: center;
-    text-transform: uppercase;
 
 }
 
@@ -726,6 +728,7 @@ margin on the iframe, cause it breaks stuff. */
     background: transparent;
     padding: 10px;
     margin: 10px 0 40px;
+    font-family: $base-font-family;
 }
 
 .gmih-textarea {
@@ -768,6 +771,18 @@ margin on the iframe, cause it breaks stuff. */
     margin-top: 40px;
 }
 
+/* Table of Contents */
+
+.on-this-page {
+    font-size: 1.5rem;
+    font-family: $headline-font-family;
+    font-weight: 700;
+    margin-bottom:0;
+}
+
+.on-this-page__list {
+    margin-top: 0;
+}
 
 /* ==========================================================================
      5. Single Post - When you click on an individual post
@@ -971,6 +986,10 @@ margin on the iframe, cause it breaks stuff. */
 
     .header-link:hover {
         color: #4A4A4A;
+    }
+
+    #on-this-page .header-link {
+        display:none;
     }
 }
 
