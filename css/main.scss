@@ -181,7 +181,7 @@ body {
     max-height: 100%;
     font-size: 14px;
     line-height: 1.6875;
-    color: #3A4145;
+    color: $background-color-dark;
     -webkit-font-feature-settings: 'kern' 1;
     -moz-font-feature-settings: 'kern' 1;
     -o-font-feature-settings: 'kern' 1;
@@ -201,7 +201,7 @@ h2, h3, h4, h5, h6 {
     -webkit-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
     -moz-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
     -o-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
-    color: #4A4A4A;
+    color: $background-color-dark;
     line-height: 1.15em;
     margin: 0 0 0.4em 0;
     font-family: $headline-font-family;
@@ -299,7 +299,7 @@ margin on the iframe, cause it breaks stuff. */
     position: relative;
     z-index: 10;
     min-height: 100%;
-    background: #f0f0f0;
+    background: $background-color;
     -webkit-transition: -webkit-transform 0.5s ease;
     transition: transform 0.5s ease;
     display: flex;
@@ -317,11 +317,11 @@ margin on the iframe, cause it breaks stuff. */
      ========================================================================== */
 
 .accent-text {
-    color: #4A90E2;
+    color: $brand-color;
 }
 
 .light-text {
-    color: #F0F0F0;
+    color: $background-color;
 }
 
 .break-small {
@@ -339,7 +339,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .home-section.raiding {
-    background: #F0F0F0;
+    background: $background-color;
 }
 
 .boss-images {
@@ -355,7 +355,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .boss-image {
-    border:1px solid #4A90E2;
+    border:1px solid $brand-color;
 
 }
 
@@ -390,11 +390,11 @@ margin on the iframe, cause it breaks stuff. */
     position: relative;
     width: 100%;
     text-align: center;
-    background: #222 no-repeat center center;
+    background: $background-color-dark no-repeat center center;
     background-size: cover;
     overflow: hidden;
     background-image: url('../images/bfa-alliance.jpg');    background-position: 50% 16%;
-    background-color: #2d2d2c;
+    background-color: #2c2c2c;
     background-blend-mode: multiply;
 }
 
@@ -434,7 +434,7 @@ margin on the iframe, cause it breaks stuff. */
     font-size: 34px;
     text-align: center;
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.7);
+    color: $background-color;
     -webkit-transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
     transform: rotate(-90deg);
@@ -445,7 +445,7 @@ margin on the iframe, cause it breaks stuff. */
 /* Stop it bouncing and increase contrast when hovered */
 
 .scroll-down:hover {
-    color: #fff;
+    color: $brand-color;
     -webkit-animation: none;
     animation: none;
 }
@@ -503,14 +503,14 @@ margin on the iframe, cause it breaks stuff. */
     white-space: nowrap;
     transition: all 0.5s ease;
     font-family: "Open Sans", sans-serif;
-    color: #F0F0F0;
+    color: $background-color;
     font-weight: bold;
 }
 
 .special-nav-button {
     border-style: solid;
     border-width: 1px;
-    border-color: #F0F0F0;
+    border-color: $background-color;
 }
 
 .menu-button:before {
@@ -522,7 +522,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .menu-button:hover {
-    background: #fff;
+    background: $background-color;
     color: $background-color-dark;
     font-weight: bold;
 }
@@ -542,7 +542,7 @@ margin on the iframe, cause it breaks stuff. */
 
 .page-title {
     margin: 10px 0 10px 0;
-    color: #4A90E2;
+    color: $brand-color;
 }
 
 @media screen and (min-width: 481px) {
@@ -589,7 +589,7 @@ margin on the iframe, cause it breaks stuff. */
     line-height: 1.5em;
     font-weight: 400;
     font-family: "Open Sans", sans-serif;
-    color: rgba(255, 255, 255, 0.8);
+    color: $background-color;
     text-transform: uppercase;
 }
 
@@ -620,13 +620,13 @@ margin on the iframe, cause it breaks stuff. */
     content: "";
     width: 7px;
     height: 7px;
-    border: #F0F0F0 1px solid;
+    border: $background-color 1px solid;
     position: absolute;
     bottom: -5px;
     left: 50%;
     margin-left: -5px;
-    background: #4A90E2;
-    box-shadow: #4A90E2 0 0 0 5px;
+    background: $brand-color;
+    box-shadow: $brand-color 0 0 0 5px;
     z-index:10;
 }
 
@@ -739,7 +739,7 @@ margin on the iframe, cause it breaks stuff. */
     display: block;
     width: 100%;
     font-size: 16px;
-    border: 2px solid #2b2b2b;
+    border: 2px solid $background-color-dark;
     background: transparent;
     padding: 10px;
     margin: 10px 0 40px;
@@ -881,13 +881,13 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .site-footer a {
-    color: #4A90E2;
+    color: $brand-color;
     text-decoration: none;
     font-weight: bold;
 }
 
 .site-footer a:hover {
-    color: #3A4145;
+    color: $background-color-dark;
 }
 
 .poweredby {
@@ -903,7 +903,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .page .copyright {
-    color: #FFFFFF;
+    color: $background-color;
 }
 
 /* ==========================================================================
@@ -932,8 +932,8 @@ margin on the iframe, cause it breaks stuff. */
 
     .menu-button:hover {
         color: $background-color-dark;
-        border-color: #F0F0F0;
-        background: #F0F0F0;
+        border-color: $background-color;
+        background: $background-color;
     }
 
     .inner {
@@ -992,11 +992,11 @@ margin on the iframe, cause it breaks stuff. */
         right: 0.5rem;
         bottom: 2px;
         font-size: 1.5rem;
-        color: #4A90E2;
+        color: $brand-color;
     }
 
     .header-link:hover {
-        color: #4A4A4A;
+        color: $background-color-dark;
     }
 
     #on-this-page .header-link {
