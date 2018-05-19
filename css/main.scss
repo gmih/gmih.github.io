@@ -288,7 +288,7 @@ margin on the iframe, cause it breaks stuff. */
     position: relative;
     width: 80%;
     max-width: 710px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 
@@ -379,11 +379,10 @@ margin on the iframe, cause it breaks stuff. */
 /* Big cover image on the home page */
 
 .vertical {
-    margin: 4rem 0;
-}
-
-.default .vertical {
-    margin: 8rem 0;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin: 2rem 0;
 }
 
 .main-header {
@@ -396,6 +395,12 @@ margin on the iframe, cause it breaks stuff. */
     background-image: url('../images/bfa-alliance.jpg');    background-position: 50% 16%;
     background-color: #2d2d2c;
     background-blend-mode: multiply;
+}
+
+.default .main-header {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 .main-header .inner {
@@ -413,6 +418,8 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 /* Create a bouncing scroll-down arrow on homepage with cover image */
+
+
 
 .scroll-down {
     display: block;
@@ -440,6 +447,13 @@ margin on the iframe, cause it breaks stuff. */
     color: #fff;
     -webkit-animation: none;
     animation: none;
+}
+
+
+@media screen and (max-height:659px) {
+    .scroll-down {
+        display:none;
+    }
 }
 
 /* Put a semi-opaque radial gradient behind the icon to make it more visible
@@ -903,9 +917,6 @@ margin on the iframe, cause it breaks stuff. */
         height: auto;
     }
 
-    .scroll-down {
-        display: none;
-    }
 }
 
 /* ==========================================================================
@@ -926,7 +937,6 @@ margin on the iframe, cause it breaks stuff. */
 
     .inner {
         width: auto;
-        margin: 2rem auto;
     }
 
     .post {
