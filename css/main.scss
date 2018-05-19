@@ -15,8 +15,9 @@ $headline-font-family: Cinzel, Georgia, serif;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
+$text-color:       #070f19;
 $background-color: #F0F0F0;
+$background-color-dark: #070f19;
 $brand-color:      #4A90E2;
 
 $grey-color:       #828282;
@@ -308,7 +309,7 @@ margin on the iframe, cause it breaks stuff. */
 
 
 .page .site-footer {
-    background: #2c2c2c;
+    background: $background-color-dark;
 }
 
 /* ==========================================================================
@@ -334,7 +335,7 @@ margin on the iframe, cause it breaks stuff. */
 .home-section.about,
 .home-section.recruitment,
 .home-section.progression {
-    background: #2C2C2C;
+    background: $background-color-dark;
 }
 
 .home-section.raiding {
@@ -522,7 +523,7 @@ margin on the iframe, cause it breaks stuff. */
 
 .menu-button:hover {
     background: #fff;
-    color: #2C2C2C;
+    color: $background-color-dark;
     font-weight: bold;
 }
 
@@ -642,7 +643,7 @@ margin on the iframe, cause it breaks stuff. */
 
 .typeform-share.button.gmih {
     cursor: pointer;
-    color: #2C2C2C;
+    color: $background-color-dark;
     font-weight: bold;
     display: block;
     margin: auto;
@@ -756,7 +757,7 @@ margin on the iframe, cause it breaks stuff. */
 
 .gmih-submit {
     cursor: pointer;
-    color: #2C2C2C;
+    color: $background-color-dark;
     font-weight: bold;
     display: block;
     margin: auto;
@@ -930,7 +931,7 @@ margin on the iframe, cause it breaks stuff. */
     }
 
     .menu-button:hover {
-        color: #2C2C2C;
+        color: $background-color-dark;
         border-color: #F0F0F0;
         background: #F0F0F0;
     }
