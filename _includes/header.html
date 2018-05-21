@@ -1,8 +1,9 @@
 <body class="{{ page.layout }}">
 
   <div class="site-wrapper">
-    <header class="main-header background-image">
-      <nav class="main-nav overlay clearfix">
+    <header class="main-header blend-multiply background-image">
+      <div class="overlay">
+      <nav class="main-nav clearfix">
         <a href="https://gmihguild.com" class="blog-logo"><span class="light-text">GM</span><span class="accent-text">iH</span></a>
         <div class="nav-container">
           <a href="https://www.warcraftlogs.com/guilds/127818" class="menu-button">Logs &rarr;</a>
@@ -24,5 +25,6 @@
         {% else %}
           <h1 class="page-title">{{ page.title }}</h1>
         {% endif %}
+      </div>
     </header>
 
