@@ -1,8 +1,11 @@
 <body class="{{ page.layout }}">
 
   <div class="site-wrapper">
-    <header class="main-header blend-multiply background-image">
-      <div class="overlay">
+      {% if page.layout == "default" %}
+      <header class="main-header blend-multiply background-image">
+      {% elsif page.layout == "page" %}
+      <header class="page-header">
+      {% endif %}
       <nav class="main-nav clearfix">
         <a href="https://gmihguild.com" class="blog-logo"><span class="light-text">GM</span><span class="accent-text">iH</span></a>
         <div class="nav-container">
@@ -25,6 +28,5 @@
         {% else %}
           <h1 class="page-title">{{ page.title }}</h1>
         {% endif %}
-      </div>
     </header>
 

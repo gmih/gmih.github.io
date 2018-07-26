@@ -15,9 +15,10 @@ $headline-font-family: Cinzel, Georgia, serif;
 
 $spacing-unit:     30px;
 
-$text-color:       #070f19;
-$background-color: #F0F0F0;
-$background-color-dark: #070f19;
+$text-color:       #FFFFFF;
+$text-color-dark: #070f19;
+$background-color: #070f19;
+$background-color-light: #202830;
 $brand-color:      #4A90E2;
 
 $grey-color:       #828282;
@@ -179,9 +180,9 @@ html {
 body {
     height: 100%;
     max-height: 100%;
-    font-size: 14px;
+    font-size: 1rem;
     line-height: 1.6875;
-    color: $background-color-dark;
+    color: $text-color;
     -webkit-font-feature-settings: 'kern' 1;
     -moz-font-feature-settings: 'kern' 1;
     -o-font-feature-settings: 'kern' 1;
@@ -201,7 +202,7 @@ h2, h3, h4, h5, h6 {
     -webkit-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
     -moz-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
     -o-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
-    color: $background-color-dark;
+    color: $text-color;
     line-height: 1.15em;
     margin: 0 0 0.4em 0;
     font-family: $headline-font-family;
@@ -219,12 +220,12 @@ h2 {
 }
 
 h3 {
-    font-size: 1rem;
+    font-size: 1.25rem;
     margin-top: 3rem;
 }
 
 h4 {
-    font-size: 1rem;
+    font-size: 1.25rem;
 }
 
 a {
@@ -233,10 +234,6 @@ a {
 }
 
 a:hover {
-    color: $background-color;
-}
-
-body.page a:hover {
     color: $text-color;
 }
 
@@ -309,7 +306,7 @@ margin on the iframe, cause it breaks stuff. */
 
 
 .page .site-footer {
-    background: $background-color-dark;
+    background: $background-color;
 }
 
 /* ==========================================================================
@@ -321,7 +318,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .light-text {
-    color: $background-color;
+    color: $text-color;
 }
 
 .break-small {
@@ -332,14 +329,47 @@ margin on the iframe, cause it breaks stuff. */
     text-align: center;
 }
 
+.site-wrapper {overflow:hidden;}
+
+.home-section {
+    padding-bottom: 100px;
+}
+
+.home-section.raiding, .site-footer {
+    background: $background-color;
+}
+
+.home-section.raiding:before, .site-footer:before {
+    content:"";
+    display:block;
+    background-image: url('../images/dark1.png');
+    width: 2500px;
+    height: 100px;
+    background-size: contain;
+    position: relative;
+    top: -75px;
+    margin-bottom: -100px;
+}
+
 .home-section.about,
 .home-section.recruitment,
 .home-section.progression {
-    background: $background-color-dark;
+    background: $background-color-light;
 }
 
-.home-section.raiding {
-    background: $background-color;
+.home-section.about:before,
+.home-section.recruitment:before,
+.home-section.progression:before,
+.page .page-content:before {
+    content:"";
+    display:block;
+    background-image: url('../images/light2.png');
+    width: 2500px;
+    height: 100px;
+    background-size: contain;
+    position: relative;
+    top: -75px;
+    margin-bottom: -100px;
 }
 
 .boss-images {
@@ -390,38 +420,30 @@ margin on the iframe, cause it breaks stuff. */
     position: relative;
     width: 100%;
     text-align: center;
-    background: $background-color-dark no-repeat center center;
+    background: $background-color no-repeat center center;
     background-size: cover;
     overflow: hidden;   background-position: 50% 16%;
     background-image: url('../images/bfa-alliance.jpg');
 }
 
+
+
+.page-header {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    background: $background-color;
+    padding-bottom:100px;
+}
+
 /* Special styles when overlaid on an image*/
 
-.overlay {
-    border: none;
-    background: rgba(0,0,0,.8);
-    flex-direction:column;
-    flex:1;
-    display:flex;
-}
 
-@supports (background-blend-mode: multiply) {
- 
-    .blend-multiply { 
-        background-color: #2c2c2c;
-        background-blend-mode: multiply;
-    }
-
-    .overlay {
-        background:none;
-    }
-}
 
 
 .default .main-header {
     display: flex;
-    min-height: 100vh;
+    min-height: 110vh;
     flex-direction: column;
 }
 
@@ -447,7 +469,7 @@ margin on the iframe, cause it breaks stuff. */
     display: block;
     position: absolute;
     z-index: 100;
-    bottom: 45px;
+    bottom: 100px;
     left: 50%;
     margin-left: -17px;
     width: 34px;
@@ -455,7 +477,7 @@ margin on the iframe, cause it breaks stuff. */
     font-size: 34px;
     text-align: center;
     text-decoration: none;
-    color: $background-color;
+    color: $text-color;
     -webkit-transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
     transform: rotate(-90deg);
@@ -528,14 +550,14 @@ margin on the iframe, cause it breaks stuff. */
     white-space: nowrap;
     transition: all 0.5s ease;
     font-family: "Open Sans", sans-serif;
-    color: $background-color;
+    color: $text-color;
     font-weight: bold;
 }
 
 .special-nav-button {
     border-style: solid;
     border-width: 1px;
-    border-color: $background-color;
+    border-color: $text-color;
 }
 
 .menu-button:before {
@@ -547,8 +569,8 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .menu-button:hover {
-    background: $background-color;
-    color: $background-color-dark;
+    background: $text-color;
+    color: $text-color-dark;
     font-weight: bold;
 }
 
@@ -562,13 +584,14 @@ margin on the iframe, cause it breaks stuff. */
 
 .page-title {
     margin: 10px 0 10px 0;
-    color: $brand-color;
+    color: $text-color;
 }
 
 @media screen and (min-width: 481px) {
 
     body {
-        font-size: 1rem;
+        font-size: 1.25rem;
+        line-height: 1.7;
     }
 
     h1 {
@@ -600,16 +623,16 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .page-content {
-    background: $background-color;
+    background: $background-color-light;
 }
 
 .page-description {
     margin: 0;
-    font-size: 1rem;
+    font-size: 1.25rem;
     line-height: 1.5em;
     font-weight: 400;
     font-family: "Open Sans", sans-serif;
-    color: $background-color;
+    color: $text-color;
     text-transform: uppercase;
 }
 
@@ -632,24 +655,6 @@ margin on the iframe, cause it breaks stuff. */
     word-wrap: break-word;
 }
 
-/* Add a little circle in the middle of the border-bottom on our .post
-     just for the lolz and stylepoints. */
-
-.post:after {
-    display: block;
-    content: "";
-    width: 7px;
-    height: 7px;
-    border: $background-color 1px solid;
-    position: absolute;
-    bottom: -5px;
-    left: 50%;
-    margin-left: -5px;
-    background: $brand-color;
-    box-shadow: $brand-color 0 0 0 5px;
-    z-index:10;
-}
-
 
 
 .home__post-title {
@@ -663,7 +668,7 @@ margin on the iframe, cause it breaks stuff. */
 
 .typeform-share.button.gmih {
     cursor: pointer;
-    color: $background-color-dark;
+    color: $text-color-dark;
     font-weight: bold;
     display: block;
     margin: auto;
@@ -759,8 +764,8 @@ margin on the iframe, cause it breaks stuff. */
     display: block;
     width: 100%;
     font-size: 16px;
-    border: 2px solid $background-color-dark;
-    background: transparent;
+    border: 2px solid $text-color;
+    background: $background-color-light;
     padding: 10px;
     margin: 10px 0 40px;
     font-family: $base-font-family;
@@ -777,7 +782,7 @@ margin on the iframe, cause it breaks stuff. */
 
 .gmih-submit {
     cursor: pointer;
-    color: $background-color-dark;
+    color: $text-color-dark;
     font-weight: bold;
     display: block;
     margin: auto;
@@ -892,12 +897,16 @@ margin on the iframe, cause it breaks stuff. */
 
 .site-footer {
     position: relative;
-    padding: 1rem 15px;
     font-family: "Open Sans", sans-serif;
     font-size: 1rem;
     line-height: 1.75em;
     font-size: 12px;
     flex: 1;
+}
+
+.site-footer__container {
+    padding: 0rem 15px 3rem;
+    position: relative;
 }
 
 .site-footer a {
@@ -907,7 +916,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .site-footer a:hover {
-    color: $background-color-dark;
+    color: $text-color;
 }
 
 .poweredby {
@@ -951,7 +960,7 @@ margin on the iframe, cause it breaks stuff. */
     }
 
     .menu-button:hover {
-        color: $background-color-dark;
+        color: $text-color;
         border-color: $background-color;
         background: $background-color;
     }
@@ -1016,7 +1025,7 @@ margin on the iframe, cause it breaks stuff. */
     }
 
     .header-link:hover {
-        color: $background-color-dark;
+        color: $brand-color;
     }
 
     #on-this-page .header-link {
