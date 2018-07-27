@@ -418,6 +418,8 @@ margin on the iframe, cause it breaks stuff. */
     flex-direction: row;
     flex: 1;
     align-items: center;
+    justify-content: center;
+    margin-top: 50px;
 }
 
 .raid-image {
@@ -425,6 +427,7 @@ margin on the iframe, cause it breaks stuff. */
     height: 150px;
     background: $background-color;
     position: relative;
+    border: 5px solid $background-color;
 }
 
 .raid-name {
@@ -439,10 +442,19 @@ margin on the iframe, cause it breaks stuff. */
     top: 0;
     background: rgba(7, 15, 25, 0.5);
 }
+
 .meter-with-labels {
-    flex: 1;
-    position:relative;
-    margin: 20px;
+    display:none;
+}
+
+@media screen and (min-width:720px) {
+
+    .meter-with-labels {
+        display:block;
+        flex: 1;
+        position:relative;
+        margin: 20px;
+    }
 }
 
 .raid-meter-labels {
@@ -450,25 +462,23 @@ margin on the iframe, cause it breaks stuff. */
     display: flex;
     width: 100%;
     flex: 1;
-    min-height: 30px;
+    min-height: 50px;
 }
 
 span.raid-meter-label:nth-child(even) {
     bottom: 0px;
     position: relative;
-    border-right: 1px solid #4a90e3;
     height: 80px;
     z-index: 10;
-    padding-top: 30px;
+    padding-top: 60px;
 }
 
 span.raid-meter-label:nth-child(odd) {
-    top: -50px;
+    top: -30px;
     position: relative;
-    border-right: 1px solid #4a90e3;
     height: 80px;
     z-index: 10;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
 }
 span.raid-meter-label {    
     font-size: 0.8rem;
@@ -485,6 +495,8 @@ span.raid-meter-label {
     position: relative;
     background: $background-color;
     overflow: hidden;
+    margin: 10px 0;
+    outline: 5px solid $background-color;
 }
 
 .meter span {
@@ -512,10 +524,26 @@ span.raid-meter-label {
 
 .progress-numbers {
     font-family: $headline-font-family;
+    font-size: 4rem;
+    margin-left: 20px;
 }
 .first-number {
     color: $brand-color;
-    font-size: 2rem;
+    font-size: 4rem;
+}
+
+@media screen and (min-width:720px) {
+    
+    .progress-numbers {
+        font-family: $headline-font-family;
+        font-size: 1rem;
+        margin-left:0;
+    }
+
+    .first-number {
+        color: $brand-color;
+        font-size: 2rem;
+    }
 }
 /* Big cover image on the home page */
 
