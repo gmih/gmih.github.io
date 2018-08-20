@@ -65,20 +65,39 @@ var linkifyAnchors = function (level, containingElement) {
 };
 
 
-// function isScrolledIntoView(el) {
-//     var rect = el.getBoundingClientRect();
-//     var elemTop = rect.top;
-//     var elemBottom = rect.bottom;
+function isScrolledIntoView(el) {
+    let scrollpos = window.scrollY + window.innerHeight;
 
-//     // Only completely visible elements return true:
-//     var isVisible = (elemTop >= 0) && (elemBottom <= window.innerHeight);
-//     // Partially visible elements return true:
-//     //isVisible = elemTop < window.innerHeight && elemBottom >= 0;
-//     return isVisible;
-// }
+    const raidInstances = Array.from(document.getElementsByClassName("raid-instance"));
+
+
+    
+
+    raidInstances.forEach(function (instance) {
+
+        if (scrollpos >= instance.getBoundingClientRect().bottom) {
+            instance.getElementsByClassName('progress-meter')[0].classList.add("progress");
+        } else {
+
+            window.addEventListener('scroll', function() { 
+                scrollpos = window.innerHeight;
+
+                raidInstances.forEach(function (instance) {
+
+                    if (scrollpos >= instance.getBoundingClientRect().bottom) {
+                        instance.getElementsByClassName('progress-meter')[0].classList.add("progress");
+                    }
+                });
+
+            })
+        }
+    });
+
+}
 
 document.onreadystatechange = function () {
   if (this.readyState === "complete") {
+    isScrolledIntoView();
     var contentBlock = document.getElementsByClassName("docs")[0];
     if (!contentBlock) {
       return;

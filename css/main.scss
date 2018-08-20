@@ -15,7 +15,7 @@ $headline-font-family: Cinzel, Georgia, serif;
 
 $spacing-unit:     30px;
 
-$text-color:       #bdbfc1;
+$text-color:       #f8f8f2;
 $text-color-dark: #070f19;
 $background-color: #070f19;
 $background-color-light: #202830;
@@ -437,10 +437,13 @@ margin on the iframe, cause it breaks stuff. */
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
     text-align: center;
     position: absolute;
     top: 0;
     background: rgba(7, 15, 25, 0.5);
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
 }
 
 .meter-with-labels {
@@ -530,6 +533,7 @@ span.raid-meter-label {
 .first-number {
     color: $brand-color;
     font-size: 4rem;
+    font-weight: 600;
 }
 
 @media screen and (min-width:720px) {
