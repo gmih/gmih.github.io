@@ -221,14 +221,17 @@ h1 {
 
 h2 {
     font-size: 1.5rem;
+    color: #4A90E2;
 }
 
 h3 {
     font-size: 1.25rem;
     margin-top: 3rem;
+    color: #4A90E2;
 }
 
 h4 {
+    color: #4A90E2;
     font-size: 1.25rem;
 }
 
@@ -737,7 +740,7 @@ span.raid-meter-label {
 @media screen and (min-width: 481px) {
 
     body {
-        font-size: 1.1rem;
+        font-size: 1rem;
         line-height: 1.5;
     }
 
@@ -807,7 +810,7 @@ span.raid-meter-label {
 
 .home__post-title {
     text-align: center;
-
+    margin-bottom: 4rem;
 }
 
 .color-accent {
@@ -836,6 +839,7 @@ span.raid-meter-label {
     text-decoration: none;
     @include button-bg($brand-color);
     width: 140px;
+    margin-top: 4rem;
 }
 
 .typeform-share.button.gmih.header-button {
