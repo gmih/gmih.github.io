@@ -22,19 +22,16 @@ Mortsubites, like any good dictator, was once voted into this position but faile
 These members contribute to the guild in special roles and help keep the guild running.
 
 - Mortsubites
-  - GM
-  - Raid Lead
-  - Master Looter
+  - GM and Raid Lead
   - Official t-minus score keeper.
 - Rissi
   - Guild/Raid Organizer
   - Healing Lead
 - Interficiens
-  - Recruitment Officer
-  - Melee Lead
+  - Melee DPS Lead
   - Official Bookkeeper
 - Crowlle
-  - Bear Tank RAWR!
+  - Ranged DPS Lead
   - Keeper of all things Krap
 
 
