@@ -889,12 +889,16 @@ span.raid-meter-label {
 
 @media (min-width: 786px) {
     .recruitment-icon {
-        width: 20%;
+        width: 25%;
     }
 }
 
 .recruitment-image-wrap {
     display:inline-block;
+}
+
+.recruitment-image {
+    border:none;
 }
 
 .class {
