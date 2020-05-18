@@ -22,3 +22,5 @@ url: "https://gmihguild.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
+plugins:
+  - jekyll-redirect-from
