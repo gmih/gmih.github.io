@@ -26,13 +26,10 @@ These members contribute to the guild in special roles and help keep the guild r
   - Official t-minus score keeper.
 - Rissi
   - Guild/Raid Organizer
-  - Healing Lead
+  - Cat Herder
 - Interficiens
-  - Melee DPS Lead
+  - Guild/Raid Organizer
   - Official Bookkeeper
-- Crowlle
-  - Ranged DPS Lead
-  - Keeper of all things Krap
 
 
 ### Legionnaire - Core Raid Member
