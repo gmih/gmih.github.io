@@ -16,7 +16,7 @@ permalink: raiding/
   </ul>
 </div>
 
-<hr class="divider">
+<div class="astrodivider"><div class="astrodividermask"></div><span><i><svg height='100%' width='100%'  fill="#4A90E2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path d="M438,411.3l-37.6-37.6c0.1-0.2,0.1-0.2,0.1-0.4c9.7-20.8,6.2-46.3-11-63.5L363,336.3l-80.5-80.5l96.6-96.6  c24-24,37.5-56.6,37.5-90.5L256,229.3L95.4,68.7c0,34,13.5,66.5,37.5,90.5l96.6,96.6L149,336.3l-26.5-26.5  c-17.2,17.2-20.7,42.7-11,63.5c0.1,0.2,0.1,0.2,0.1,0.4L74,411.3c-7.3,7.3-7.3,19.2,0,26.5c7.3,7.3,19.2,7.3,26.5,0l37.6-37.6  c0.2,0.1,0.2,0.1,0.4,0.1c20.8,9.7,46.3,6.2,63.5-11l-26.5-26.5l80.5-80.5l80.5,80.5L310,389.4c17.2,17.2,42.7,20.7,63.5,11  c0.1-0.1,0.2-0.1,0.4-0.1l37.6,37.6c7.3,7.3,19.2,7.3,26.5,0C445.3,430.5,445.3,418.6,438,411.3z"></path></svg></i></span></div>
 
 ## Raid Schedule
 - Friday 6pm to 9pm Server Time (Pacific Time Zone).
@@ -25,13 +25,13 @@ permalink: raiding/
 ### Normal Difficulty Alt Run - Completely optional
 - Thursdays 6pm to 9pm Server Time (Pacific Time Zone).
 
-<hr class="divider">
+<div class="astrodivider"><div class="astrodividermask"></div><span><i><svg height='100%' width='100%'  fill="#4A90E2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path d="M438,411.3l-37.6-37.6c0.1-0.2,0.1-0.2,0.1-0.4c9.7-20.8,6.2-46.3-11-63.5L363,336.3l-80.5-80.5l96.6-96.6  c24-24,37.5-56.6,37.5-90.5L256,229.3L95.4,68.7c0,34,13.5,66.5,37.5,90.5l96.6,96.6L149,336.3l-26.5-26.5  c-17.2,17.2-20.7,42.7-11,63.5c0.1,0.2,0.1,0.2,0.1,0.4L74,411.3c-7.3,7.3-7.3,19.2,0,26.5c7.3,7.3,19.2,7.3,26.5,0l37.6-37.6  c0.2,0.1,0.2,0.1,0.4,0.1c20.8,9.7,46.3,6.2,63.5-11l-26.5-26.5l80.5-80.5l80.5,80.5L310,389.4c17.2,17.2,42.7,20.7,63.5,11  c0.1-0.1,0.2-0.1,0.4-0.1l37.6,37.6c7.3,7.3,19.2,7.3,26.5,0C445.3,430.5,445.3,418.6,438,411.3z"></path></svg></i></span></div>
 
 ## Raid Roster
 
 Our main raid roster consists of Legionnaires with the occasional trial member. Our Thursday alt and social-friendly Normal run is open to anyone in the guild as long as you meet the minimum requirements.
 
-<hr class="divider">
+<div class="astrodivider"><div class="astrodividermask"></div><span><i><svg height='100%' width='100%'  fill="#4A90E2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path d="M438,411.3l-37.6-37.6c0.1-0.2,0.1-0.2,0.1-0.4c9.7-20.8,6.2-46.3-11-63.5L363,336.3l-80.5-80.5l96.6-96.6  c24-24,37.5-56.6,37.5-90.5L256,229.3L95.4,68.7c0,34,13.5,66.5,37.5,90.5l96.6,96.6L149,336.3l-26.5-26.5  c-17.2,17.2-20.7,42.7-11,63.5c0.1,0.2,0.1,0.2,0.1,0.4L74,411.3c-7.3,7.3-7.3,19.2,0,26.5c7.3,7.3,19.2,7.3,26.5,0l37.6-37.6  c0.2,0.1,0.2,0.1,0.4,0.1c20.8,9.7,46.3,6.2,63.5-11l-26.5-26.5l80.5-80.5l80.5,80.5L310,389.4c17.2,17.2,42.7,20.7,63.5,11  c0.1-0.1,0.2-0.1,0.4-0.1l37.6,37.6c7.3,7.3,19.2,7.3,26.5,0C445.3,430.5,445.3,418.6,438,411.3z"></path></svg></i></span></div>
 
 ## Raiding Expectations
 - Invites start going out at 5:45pm PST. Please be in the raid zone by 6pm PST and ready to pull the first boss.
@@ -77,7 +77,7 @@ If you’re going to miss a raid, please post in the “Truancy” Discord chann
   - Come to raid equipped with flasks, potions, food, and any other consumable that may boost your performance.
   - The guild will help provide these as much as possible.
 
-<hr class="divider">
+<div class="astrodivider"><div class="astrodividermask"></div><span><i><svg height='100%' width='100%'  fill="#4A90E2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path d="M438,411.3l-37.6-37.6c0.1-0.2,0.1-0.2,0.1-0.4c9.7-20.8,6.2-46.3-11-63.5L363,336.3l-80.5-80.5l96.6-96.6  c24-24,37.5-56.6,37.5-90.5L256,229.3L95.4,68.7c0,34,13.5,66.5,37.5,90.5l96.6,96.6L149,336.3l-26.5-26.5  c-17.2,17.2-20.7,42.7-11,63.5c0.1,0.2,0.1,0.2,0.1,0.4L74,411.3c-7.3,7.3-7.3,19.2,0,26.5c7.3,7.3,19.2,7.3,26.5,0l37.6-37.6  c0.2,0.1,0.2,0.1,0.4,0.1c20.8,9.7,46.3,6.2,63.5-11l-26.5-26.5l80.5-80.5l80.5,80.5L310,389.4c17.2,17.2,42.7,20.7,63.5,11  c0.1-0.1,0.2-0.1,0.4-0.1l37.6,37.6c7.3,7.3,19.2,7.3,26.5,0C445.3,430.5,445.3,418.6,438,411.3z"></path></svg></i></span></div>
 
 ## Loot
 With BfA, Blizzard is moving to personal loot for everyone.

@@ -254,7 +254,7 @@ p {
 
 img {
     max-width:100%;
-    border: 5px solid $background-color;
+    border: 5px solid $background-color-light;
 }
 
 /* When a video is inside the fitvids wrapper, drop the
@@ -339,30 +339,42 @@ margin on the iframe, cause it breaks stuff. */
 
 .site-wrapper {overflow:hidden;}
 
-.home-section {
-    padding-bottom: 100px;
-}
 
 .home-section.raiding, .site-footer {
     background: $background-color;
 }
 
-.home-section.raiding:before, .site-footer:before {
+.home-section.raiding {
+    background-image: linear-gradient(rgba(7,15,25,0.5) 0%,rgba(7,15,25,0.5) 100%),url('../images/shadowlands.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    .post {
+        padding: 10rem 0;
+    }
+
+    h2 {
+        color: white;
+    }
+}
+.home-section.raiding:before {
     content:"";
     display:block;
-    background-image: url('../images/dark1.png');
+    background-image: url('../images/dark2.png');
     width: 2500px;
     height: 100px;
     background-size: contain;
     position: relative;
-    top: -75px;
+    bottom: 0;
     margin-bottom: -100px;
+    transform: scaleY(-1);
 }
 
 .home-section.about,
 .home-section.recruitment,
 .home-section.progression {
-    background: $background-color-light;
+    background: $background-color;
 }
 
 .home-section.about:before,
@@ -371,7 +383,7 @@ margin on the iframe, cause it breaks stuff. */
 .page .page-content:before {
     content:"";
     display:block;
-    background-image: url('../images/light2.png');
+    background-image: url('../images/dark1.png');
     width: 2500px;
     height: 100px;
     background-size: contain;
@@ -416,7 +428,6 @@ margin on the iframe, cause it breaks stuff. */
         line-height: 1.3;
 }
 
-
 .raid-instance {
     display: flex;
     flex-direction: row;
@@ -447,6 +458,8 @@ margin on the iframe, cause it breaks stuff. */
     top: 0;
     background: rgba(7, 15, 25, 0.5);
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+    transition: opacity 1s;
+    padding: 10px;
 }
 
 .meter-with-labels {
@@ -470,6 +483,8 @@ margin on the iframe, cause it breaks stuff. */
     flex: 1;
     min-height: 50px;
     justify-content: space-between;
+    opacity: 0;
+    transition: opacity 1s;
 }
 
 span.raid-meter-label:nth-child(even) {
@@ -500,10 +515,10 @@ span.raid-meter-label {
 .meter {     
     height: 30px;
     position: relative;
-    background: $background-color;
+    background: $background-color-light;
     overflow: hidden;
     margin: 10px 0;
-    outline: 5px solid $background-color;
+    outline: 5px solid $background-color-light;
 }
 
 .meter span {
@@ -517,6 +532,11 @@ span.raid-meter-label {
             animation: progressBar 3s ease-in-out;
     -webkit-animation-fill-mode:both;
             animation-fill-mode:both; 
+}
+
+
+.raid-instance:hover .raid-meter-labels {
+    opacity: 0.4;
 }
 
 @-webkit-keyframes progressBar {
@@ -533,6 +553,7 @@ span.raid-meter-label {
     font-family: $headline-font-family;
     font-size: 2rem;
     margin-left: 20px;
+    min-width: 135px;
 }
 .first-number {
     color: $brand-color;
@@ -546,6 +567,7 @@ span.raid-meter-label {
         font-family: $headline-font-family;
         font-size: 1rem;
         margin-left:0;
+        min-width: 70px;
     }
 
     .first-number {
@@ -563,28 +585,77 @@ span.raid-meter-label {
 }
 
 .main-header {
-    position: relative;
+    // position: relative;
     width: 100%;
     text-align: center;
-    background: $background-color no-repeat center center;
-    background-size: cover;
-    overflow: hidden;   background-position: 50% 16%;
-    background-image: url('../images/bfa-alliance.jpg');
+    // background: $background-color no-repeat center center;
+    // background-size: cover;
+    // overflow: hidden;
+    // background-position: center;
+    // background-image: linear-gradient(
+    //     rgba(7, 15, 25, 0.45), 
+    //     rgba(7, 15, 25, 0.45)
+    //   ),url('../images/shadowlands.jpg');
 }
 
-
+.main-header .page-title, .main-header .page-description {
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
+}
 
 .page-header {
     position: relative;
     width: 100%;
     text-align: center;
-    background: $background-color;
-    padding-bottom:100px;
+    background: #070f19;
+    padding-bottom: 100px;
+    background-image: linear-gradient(rgba(0,0,0,.5) 0%, rgba(0,0,0,0.5) 100%),url(../images/shadowlands.jpg);
+    background-size: 100%;
+    background-position: bottom center;
+    background-repeat: no-repeat;
 }
 
 /* Special styles when overlaid on an image*/
 
 
+.main-header {
+    position:relative;
+    overflow:hidden;
+}
+.main-header:after{
+    content:"";
+    width:100%;
+    height:120vh;
+    position:absolute;
+    bottom:0;
+    left:0;
+    z-index:-1;
+    background: linear-gradient(to bottom, rgba(7,15,25,0.22) 40%,rgba(7,15,25,1) 100%);
+
+}
+  .main-header:before {
+    content:"";
+    width:100%;
+    height:120vh;
+    position:absolute;
+    top:0;
+    left:0;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    background:#1B2030 url('../images/sl-large.jpg') 50% 0 no-repeat;
+    background-size: auto 120vh;
+    background-attachment:fixed;
+    animation: grow 180s linear 10ms infinite;
+    transition:all 0.4s ease-in-out;
+    z-index:-2;
+
+}
+
+@keyframes grow{
+    0% { transform: scale(1) translateY(0%)}
+    50% { transform: scale(1.2) translateY(-20vh)}
+}
 
 
 .default .main-header {
@@ -741,8 +812,7 @@ span.raid-meter-label {
 @media screen and (min-width: 481px) {
 
     body {
-        font-size: 1rem;
-        line-height: 1.5;
+        font-size: 1.2rem;
     }
 
     h1 {
@@ -774,7 +844,7 @@ span.raid-meter-label {
 }
 
 .page-content {
-    background: $background-color-light;
+    background: $background-color;
     padding-bottom:50px;
 }
 
@@ -801,10 +871,13 @@ span.raid-meter-label {
 .post {
     position: relative;
     width: 80%;
-    max-width: 900px;
     margin: auto;
     padding: 5rem 0;
     word-wrap: break-word;
+}
+
+.post.post--small {
+    max-width: 1000px;
 }
 
 
@@ -859,6 +932,8 @@ span.raid-meter-label {
 
 // Recruitment Icons
 
+// Recruitment Icons
+
 .recruitment-icons {
     padding:0;
     list-style-type:none;
@@ -874,41 +949,113 @@ span.raid-meter-label {
      flex-flow: row wrap;
 }
 
-.recruitment-icon {
-    text-align:center;
-    font-size:14px;
-    width: 50%;
-    color: $brand-color;
-    margin-bottom: 3rem
+.recruitment-container {
+    background: rgba(0,0,0,0.5);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.6);
+    margin: auto;
+    position:relative;
+    padding-bottom: 50px;
 }
 
+.recruitment-icon {
+    text-align:center;
+    width: 100%;
+    color: $brand-color;
+    margin-bottom: 3rem;
+    padding: 10px;
+    align-self: stretch;
+    display: flex;
+}
+
+.recruitment-icon.not-recruiting {
+    pointer-events: none;
+    filter: grayscale(1);
+    opacity: 0.3;
+}
+
+.recruitment-icon:hover .recruitment-image {
+    transform: scale(1.2) translateY(-20%);
+}
 @media (min-width: 480px) {
     .recruitment-icon {
-        width: 33%;
+        width: calc(100% / 2);
+    }
+}
+@media (min-width: 768px) {
+    .recruitment-icon {
+        width: calc(100% / 4);
     }
 }
 
-@media (min-width: 786px) {
+@media (min-width: 1200px) {
     .recruitment-icon {
-        width: 25%;
+        width: calc(100% / 6);
     }
 }
 
 .recruitment-image-wrap {
     display:inline-block;
+    padding: 20px;
 }
 
 .recruitment-image {
     border:none;
+    transition: transform 1s ease;
 }
 
 .class {
-    display:block;
+    display:flex;
+    flex-direction: column;
     line-height:1;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    justify-content: flex-end;
+    overflow:hidden;
+}
+
+.class__name {
+    transform: translateY(0);
+    transition: transform 1s ease;
 }
 
 .solo.class {
     margin-top: 12px;
+}
+
+.spec-list {
+    display: flex;
+    justify-content: center;
+    transform: translateY(100%);
+    opacity: 0;
+    transition: transform 1s ease, opacity 1s ease;
+
+    .spec {
+        width: 25%;
+        padding: 5px;
+        max-width: 42px;
+    }
+
+    img {
+        border: 1px solid $brand-color;
+    }
+
+    .spec--no img {
+        border: 1px solid transparent;
+        opacity: 0.5;
+        filter: grayscale(1);
+    }
+}
+
+.recruitment-icon:hover .spec-list {
+    transform: none;
+    opacity: 1;
+}
+
+.recruitment-icon:hover .class__name {
+    transform: translateY(-100%);
 }
 
 
@@ -923,7 +1070,7 @@ span.raid-meter-label {
     width: 100%;
     font-size: 16px;
     border: 2px solid rgba(255,255,255,0.3);
-    background: $background-color-light;
+    background: $background-color;
     padding: 10px;
     margin: 10px 0 40px;
     font-family: $base-font-family;
@@ -1242,3 +1389,44 @@ span.raid-meter-label {
      End of file. Animations should be the last thing here. Do not add stuff
      below this point, or it will probably fuck everything up.
      ========================================================================== */
+
+     
+.astrodivider {
+    margin:100px auto;
+    width:400px; 
+    max-width: 100%;
+    position:relative;
+  }
+  
+  .astrodividermask { 
+      overflow:hidden; height:20px; 
+  }
+  
+  .astrodividermask:after { 
+        content:''; 
+        display:block; margin:-25px auto 0;
+        width:100%; height:25px;  
+          border-radius:125px / 12px;
+         box-shadow:0 0 8px $brand-color;
+  }
+  .astrodivider span {
+      width:50px; height:50px; 
+      position:absolute; 
+      bottom:100%; margin-bottom:-25px;
+      left:50%; margin-left:-25px;
+      border-radius:100%;
+     box-shadow:0 2px 4px $brand-color;
+      background:$background-color;
+  }
+  .astrodivider i {
+      position:absolute;
+      top:4px; bottom:4px;
+      left:4px; right:4px;
+      border-radius:100%;
+      border:1px dashed $brand-color;
+      text-align:center;
+      line-height:40px;
+      font-style:normal;
+       color:$brand-color;
+       padding: 5px;
+  }
