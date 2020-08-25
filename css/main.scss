@@ -1000,7 +1000,7 @@ span.raid-meter-label {
 
 .recruitment-image {
     border:none;
-    transition: transform 1s ease;
+    transition: transform 0.4s ease;
 }
 
 .class {
@@ -1018,7 +1018,7 @@ span.raid-meter-label {
 
 .class__name {
     transform: translateY(0);
-    transition: transform 1s ease;
+    transition: transform 0.4s ease;
 }
 
 .solo.class {
@@ -1030,7 +1030,7 @@ span.raid-meter-label {
     justify-content: center;
     transform: translateY(100%);
     opacity: 0;
-    transition: transform 1s ease, opacity 1s ease;
+    transition: transform 0.4s ease, opacity 0.4s ease;
 
     .spec {
         width: 25%;
