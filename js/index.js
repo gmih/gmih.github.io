@@ -107,3 +107,26 @@ document.onreadystatechange = function () {
     }
   }
 };
+
+
+var boomkinAudio = new Audio('/audio/boomkin.mp3');
+if (document.querySelector("#boomkin")) {
+  document.querySelector("#boomkin").addEventListener('click', function(e) {
+    if (boomkinAudio.paused) {
+      boomkinAudio.play();
+    } else {
+      boomkinAudio.pause();
+    }
+  });
+}
+
+var subtletyAudio = new Audio('/audio/trombone.mp3');
+if (document.querySelector("#subtlety")) {
+  document.querySelector("#subtlety").addEventListener('click', function(e) {
+    if (subtletyAudio.paused) {
+      subtletyAudio.play();
+    } else {
+      subtletyAudio.pause();
+    }
+  });
+}
