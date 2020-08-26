@@ -11,7 +11,7 @@
   Member1-Spec: Feral
   Member2: Menoah
   Member2-Spec: Restoration
-  Member3: Apocï¿½lypse
+  Member3: Apocálypse
   Member3-Spec: Fire
   Member4: Protocoil
   Member4-Spec: Beast Mastery
@@ -32,7 +32,7 @@
   Member2-Spec: Feral
   Member3: Menoah
   Member3-Spec: Restoration
-  Member4: Apocï¿½lypse
+  Member4: Apocálypse
   Member4-Spec: Fire
   Member5: Protocoil
   Member5-Spec: Beast Mastery
@@ -89,9 +89,9 @@
   Member2-Spec: Feral
   Member3: Menoah
   Member3-Spec: Restoration
-  Member4: Apocï¿½lypse
+  Member4: Apocálypse
   Member4-Spec: Fire
-  Member5: Dï¿½mex
+  Member5: Dêmex
   Member5-Spec: Havoc
 - Timestamp: '1596859608000'
   Dungeon: Shrine of the Storm
@@ -106,7 +106,7 @@
   Member1-Spec: Feral
   Member2: Menoah
   Member2-Spec: Restoration
-  Member3: Apocï¿½lypse
+  Member3: Apocálypse
   Member3-Spec: Fire
   Member4: Protocoil
   Member4-Spec: Beast Mastery
@@ -159,7 +159,7 @@
   Affix2: Raging
   Affix3: Necrotic
   Affix4: Awakened
-  Member1: Mï¿½kï¿½iti
+  Member1: Mäkäiti
   Member1-Spec: Discipline
   Member2: Jekuto
   Member2-Spec: Beast Mastery
@@ -178,7 +178,7 @@
   Affix2: Raging
   Affix3: Necrotic
   Affix4: ''
-  Member1: Mï¿½kï¿½iti
+  Member1: Mäkäiti
   Member1-Spec: Discipline
   Member2: Jekuto
   Member2-Spec: Beast Mastery
@@ -197,7 +197,7 @@
   Affix2: Bolstering
   Affix3: Skittish
   Affix4: Awakened
-  Member1: Mï¿½kï¿½iti
+  Member1: Mäkäiti
   Member1-Spec: Discipline
   Member2: Alarris
   Member2-Spec: Assassination
@@ -205,7 +205,7 @@
   Member3-Spec: Blood
   Member4: Yukimaru
   Member4-Spec: Enhancement
-  Member5: Rï¿½ckless
+  Member5: Rèckless
   Member5-Spec: Outlaw
 - Timestamp: '1579967978000'
   Dungeon: 'Operation: Mechagon - Workshop'
@@ -298,7 +298,7 @@
   Member2-Spec: Mistweaver
   Member3: Tialyn
   Member3-Spec: Shadow
-  Member4: Yï¿½kimaru
+  Member4: Yùkimaru
   Member4-Spec: Fury
   Member5: Protoplast
   Member5-Spec: Protection
@@ -357,7 +357,7 @@
   Member3-Spec: Brewmaster
   Member4: Melliemaus
   Member4-Spec: Restoration
-  Member5: Yï¿½kimaru
+  Member5: Yùkimaru
   Member5-Spec: Fury
 - Timestamp: '1595975647000'
   Dungeon: Shrine of the Storm
@@ -374,7 +374,7 @@
   Member2-Spec: Mistweaver
   Member3: Tialyn
   Member3-Spec: Shadow
-  Member4: Yï¿½kimaru
+  Member4: Yùkimaru
   Member4-Spec: Fury
   Member5: Protoplast
   Member5-Spec: Protection
@@ -600,7 +600,7 @@
   Member1-Spec: Holy
   Member2: Luchoxvato
   Member2-Spec: Demonology
-  Member3: Yukimarï¿½
+  Member3: Yukimarù
   Member3-Spec: Brewmaster
   Member4: Protoplast
   Member4-Spec: Arms
@@ -830,7 +830,7 @@
   Member2-Spec: Demonology
   Member3: Menoah
   Member3-Spec: Restoration
-  Member4: Brembï¿½
+  Member4: Brembó
   Member4-Spec: Marksmanship
   Member5: Thiccdabs
   Member5-Spec: Havoc
@@ -870,7 +870,7 @@
   Member3-Spec: Havoc
   Member4: Thorosofmead
   Member4-Spec: Protection
-  Member5: Apocï¿½lypse
+  Member5: Apocálypse
   Member5-Spec: Fire
 - Timestamp: '1581649111000'
   Dungeon: Freehold
@@ -887,7 +887,7 @@
   Member2-Spec: Havoc
   Member3: Thorosofmead
   Member3-Spec: Protection
-  Member4: Apocï¿½lypse
+  Member4: Apocálypse
   Member4-Spec: Fire
   Member5: Whemo
   Member5-Spec: Beast Mastery
@@ -944,7 +944,7 @@
   Member2-Spec: Feral
   Member3: Waltorr
   Member3-Spec: Beast Mastery
-  Member4: Apocï¿½lypse
+  Member4: Apocálypse
   Member4-Spec: Fire
   Member5: Protoplast
   Member5-Spec: Protection
@@ -1172,7 +1172,7 @@
   Member2-Spec: Holy
   Member3: Volozai
   Member3-Spec: Windwalker
-  Member4: Yukimarï¿½
+  Member4: Yukimarù
   Member4-Spec: Brewmaster
   Member5: Dogsht
   Member5-Spec: Beast Mastery
@@ -1286,7 +1286,7 @@
   Member2-Spec: Demonology
   Member3: Protozoa
   Member3-Spec: Havoc
-  Member4: Talï¿½rra
+  Member4: Talórra
   Member4-Spec: Restoration
   Member5: Yukimaru
   Member5-Spec: Enhancement
@@ -1318,7 +1318,7 @@
   Affix2: Teeming
   Affix3: Quaking
   Affix4: Awakened
-  Member1: Bï¿½tch
+  Member1: Bétch
   Member1-Spec: Fury
   Member2: Exanimo
   Member2-Spec: Holy
@@ -1417,7 +1417,7 @@
   Member1-Spec: Holy
   Member2: Nimiu
   Member2-Spec: Balance
-  Member3: Yukimarï¿½
+  Member3: Yukimarù
   Member3-Spec: Brewmaster
   Member4: Purprend
   Member4-Spec: Fury
@@ -1434,7 +1434,7 @@
   Affix4: Awakened
   Member1: Serzion
   Member1-Spec: Frost
-  Member2: Mileyvyrï¿½s
+  Member2: Mileyvyrùs
   Member2-Spec: Blood
   Member3: Luchoxvato
   Member3-Spec: Demonology
@@ -1552,7 +1552,7 @@
   Member2-Spec: Mistweaver
   Member3: Tialyn
   Member3-Spec: Shadow
-  Member4: Yï¿½kimaru
+  Member4: Yùkimaru
   Member4-Spec: Fury
   Member5: Protoplast
   Member5-Spec: Protection
