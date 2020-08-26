@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /pull-spreadsheet/
+Allow: /
