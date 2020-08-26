@@ -41,7 +41,7 @@ permalink: pull-spreadsheet/
     $oAuthToken = Cookies.get('token');
 
     
-    var public_spreadsheet_url = 'https://cors-anywhere.herokuapp.com/docs.google.com/spreadsheets/d/e/2PACX-1vStHOtRnAzF2n_zQkvc2Ge1w35pXIodQwyFnrkwq8mHlopvyDPTGUnveXrYXGeuKq1BC5EVrMejeMaD/pub?gid=0&single=true&output=csv';
+    var public_spreadsheet_url = 'https://cors-anywhere.herokuapp.com/docs.google.com/spreadsheets/d/e/'+$key+'/pub?gid=0&single=true&output=csv';
 
     function init() {
       Papa.parse(public_spreadsheet_url, {
@@ -76,7 +76,7 @@ function saveData(data) {
       $sha = treeValue['sha'];
 
       if($path==$writepath) {
-        repo.writemanual('master', $writepath, encodeURIComponent(data), 'Save', $sha, function(err) { });
+        repo.writemanual('master', $writepath, data, 'Save', $sha, function(err) { });
         console.log("writing " + $writepath);
       }
     });
