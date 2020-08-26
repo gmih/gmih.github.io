@@ -76,7 +76,7 @@ function saveData(data) {
       $sha = treeValue['sha'];
 
       if($path==$writepath) {
-        repo.writemanual('master', $writepath, data, 'Save', $sha, function(err) { });
+        repo.writemanual('master', $writepath, encodeURIComponent(data), 'Save', $sha, function(err) { });
         console.log("writing " + $writepath);
       }
     });
