@@ -25,7 +25,7 @@ markdown: kramdown
 plugins:
   - jekyll-redirect-from
 
-integration_spreadsheet_key: 2PACX-1vStHOtRnAzF2n_zQkvc2Ge1w35pXIodQwyFnrkwq8mHlopvyDPTGUnveXrYXGeuKq1BC5EVrMejeMaD
+integration_spreadsheet_key: 1YFY0WT9b8CnyN08Oyv4O-9t-PRbZkImVKREkU-rsAiI
 
 github_user: gmih
 github_repo: gmih.github.io
