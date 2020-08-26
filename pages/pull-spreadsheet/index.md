@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Update Spreadsheet
+permalink: pull-spreadsheet/
 ---
 
 <!--These are JavaScript Libraries-->
