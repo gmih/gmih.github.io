@@ -57,7 +57,7 @@ permalink: pull-spreadsheet/
       var data = results.data
       document.getElementById('notification').textContent = "Successfully processed " + data.length + " rows!"
       document.getElementById('source').value = JSON.stringify(data);
-      saveData(data);
+      saveData(JSON.stringify(data));
     }
 
 function saveData(data) {
