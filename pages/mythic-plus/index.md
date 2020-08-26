@@ -6,13 +6,9 @@ nav: yes
 permalink: mythic-plus/
 ---
 
-<!-- Organizations -->
-{% assign leaderboard = site.data.leaderboard %}
+<script>
+fetch('/data/leaderboard.json')
+  .then(response => response.json())
+  .then(data => console.log(data));
 
-<!-- Document -->
-
-{% for leaderboardRow in leaderboard %}
-    <ul>
-        <li>{{ leaderboardRow }}</li>
-    </ul>
-{% endfor %}
+</script>

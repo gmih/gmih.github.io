@@ -8,11 +8,10 @@ permalink: pull-spreadsheet/
 <script type="text/javascript" src="/js/jquery-latest.min.js"></script>
 <script type="text/javascript" src="/js/utility.js"></script>
 <script type="text/javascript" src="/js/cookies.js"></script>
-<script type="text/javascript" src="/js/tabletop.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.1.0/papaparse.min.js"></script>
 <script type="text/javascript" src="/js/js-yaml.min.js"></script>
 <script type="text/javascript" src="/js/github.js"></script>
 
-<h1>Update </h1>
 <script type="text/javascript">
 
     // Reset the cookie manually
@@ -41,75 +40,49 @@ permalink: pull-spreadsheet/
     // Grab the token from cookie
     $oAuthToken = Cookies.get('token');
 
-    $(document).ready( function() {
-      Tabletop.init( { key: $key,
-                       callback: showInfo,
-                       wanted: [ $resource ],
-                       debug: true } )
-    })
+    
+    var public_spreadsheet_url = 'https://cors-anywhere.herokuapp.com/docs.google.com/spreadsheets/d/e/2PACX-1vStHOtRnAzF2n_zQkvc2Ge1w35pXIodQwyFnrkwq8mHlopvyDPTGUnveXrYXGeuKq1BC5EVrMejeMaD/pub?gid=0&single=true&output=csv';
 
-    console.log($resource);
-
-    function showInfo(data, tabletop) {
-
-      $products = new Array();
-
-      $("#table_info").text("We found the tables " + tabletop.model_names.join(", "));
-
-      $.each( tabletop.sheets(), function(i, sheet) {
-        $("#table_info").append("<p>" + sheet.name + " has " + sheet.column_names.join(", ") + "</p>");
-      });
-
-      $product = tabletop.sheets($resource).all();
-
-      $count = 0;
-      $total_count = $product.length;
-      $.each( tabletop.sheets($resource).all(), function(i, service) {
-
-          $p = {};
-          $.each(service, function($key, $value) {
-            //console.log($key + ' == ' + $value);
-            $p[$key] = $value;
-          });
-          $products.push($p);
-
-          $count++;
-          //console.log($count + ' == ' + $total_count);
-          if($count==$total_count)
-            {
-            $yaml_dump = jsyaml.dump($products);
-
-            document.getElementById('source').value = $yaml_dump;
-
-            // Grab the token from cookie
-            $oAuthToken = Cookies.get('token');
-
-            var github = new Github({token: $oAuthToken,auth: "oauth"});
-            var repo = github.getRepo($org,$repo);
-
-            repo.getTree($branch + '?recursive=true', function(err, tree) {
-
-              $.each(tree, function(treeKey, treeValue) {
-
-                $writepath = '_data/' + $resource + '.yaml';
-                $path = treeValue['path'];
-                $sha = treeValue['sha'];
-
-                //console.log($path + ' == ' + $writepath);
-
-                if($path==$writepath)
-                  {
-                  repo.writemanual('master',$writepath, $yaml_dump, 'Save', $sha, function(err) { });
-                  console.log("writing " + $writepath);
-                  //alert("saved " + $writepath);
-                  }
-                });
-              });
-
-            }
-      });
-
+    function init() {
+      Papa.parse(public_spreadsheet_url, {
+        download: true,
+        header: true,
+        complete: showInfo
+      })
     }
 
+    window.addEventListener('DOMContentLoaded', init)
+
+    function showInfo(results) {
+      var data = results.data
+      document.getElementById('notification').textContent = "Successfully processed " + data.length + " rows!"
+      document.getElementById('source').value = JSON.stringify(data);
+      saveData(data);
+    }
+
+function saveData(data) {
+  //Grab the token from cookie
+  $oAuthToken = Cookies.get('token');
+
+  var github = new Github({token: $oAuthToken,auth: "oauth"});
+  var repo = github.getRepo($org,$repo);
+
+  repo.getTree($branch + '?recursive=true', function(err, tree) {
+
+    $.each(tree, function(treeKey, treeValue) {
+
+      $writepath = 'data/' + $resource + '.json';
+      $path = treeValue['path'];
+      $sha = treeValue['sha'];
+
+      if($path==$writepath) {
+        repo.writemanual('master', $writepath, data, 'Save', $sha, function(err) { });
+        console.log("writing " + $writepath);
+      }
+    });
+  });
+}
+
 </script>
+<p id="notification"></p>
 <textarea cols="10" rows="5" id="source" style="border: 1px solid #000; width: 100%; height: 350px;"></textarea>
