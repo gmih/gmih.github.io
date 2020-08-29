@@ -1434,3 +1434,492 @@ span.raid-meter-label {
   .secret-audio {
       cursor:pointer;
   }
+
+  // Mythic+ Leaderboard
+  #gmih-leaderboard {
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+  }
+
+  .guild-run {
+    background: rgba(255,255,255,0.2);
+    padding: 5px;
+    margin: 0 0 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,1);
+
+    &.guild-run--motherlode {
+        background-image: url(../images/dungeons/the-motherlode.jpg);
+    }
+
+    &.guild-run--atal-dazar {
+        background-image: url(../images/dungeons/ataldazar.jpg);
+    }
+
+    &.guild-run--freehold {
+        background-image: url(../images/dungeons/freehold.jpg);
+    }
+
+    &.guild-run--kings-rest {
+        background-image: url(../images/dungeons/kings-rest.jpg);
+    }
+
+    &.guild-run--junkyard {
+        background-image: url(../images/dungeons/mechagon.jpg);
+    }
+
+    &.guild-run--workshop {
+        background-image: url(../images/dungeons/mechagon.jpg);
+    }
+
+    &.guild-run--shrine {
+        background-image: url(../images/dungeons/shrine-of-the-storm.jpg);
+    }
+
+    &.guild-run--siege {
+        background-image: url(../images/dungeons/siege-of-boralus.jpg);
+    }
+
+    &.guild-run--temple {
+        background-image: url(../images/dungeons/temple-of-sethraliss.jpg);
+    }
+
+    &.guild-run--underrot {
+        background-image: url(../images/dungeons/the-underrot.jpg);
+    }
+
+    &.guild-run--waycrest-manor {
+        background-image: url(../images/dungeons/waycrest-manor.jpg);
+    }
+
+    &.guild-run--tol-dagor {
+        background-image: url(../images/dungeons/tol-dagor.jpg);
+    }
+  }
+
+  .guild-run__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(7, 15, 25, 0.8);
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+
+  .dungeon-details {
+    width: 100%;
+    @media (min-width: 800px) { 
+        width: calc((100% / 3) - 10px);
+    }
+  }
+
+  .dungeon-group {
+    width: 100%;
+    @media (min-width: 800px) { 
+        width: calc((200% / 3) - 10px);
+    }
+  }
+
+  .timer__stars {
+    display: flex;
+    width: 45px;
+    position: relative;
+    backface-visibility: hidden;
+
+    &:before {
+        content: "Keystone Depleted";
+        position: absolute;
+        bottom: 100%;
+        background: white;
+        color: $background-color;
+        padding: 5px;
+        border-radius: 5px;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: bold;
+        letter-spacing: 0.05em;
+        opacity: 0;
+        transition: opacity 0.2s ease, transform 0.4s ease;
+        pointer-events: none;
+        transform: translate(-50%, -25px);
+        left: 50%;
+        backface-visibility: hidden;
+        white-space: nowrap;
+    }
+
+    &:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -26px);
+        width: 0; 
+        height: 0; 
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid white;
+        transition: opacity 0.2s ease, transform 0.4s ease;
+        opacity: 0;
+        backface-visibility: hidden;
+        pointer-events: none;
+    }
+
+    &:hover {
+        &:before {
+            opacity: 1;
+            transform: translate(-50%, -15px)
+        }
+
+        &:after {
+            opacity: 1;
+            transform: translate(-50%, -16px)
+        }
+    }
+
+    svg {
+        width: calc(100% / 3);
+        fill: rgba(255,255,255,0.1);
+    }
+
+    &.one-star {
+        &:before {
+            content: "Keystone Upgraded +1"
+        }
+        svg:first-child {
+            fill: #fccb88;
+        }
+    }
+
+    &.two-stars {
+        &:before {
+            content: "Keystone Upgraded +2"
+        }
+        svg:first-child, svg:nth-child(2) {
+            fill: #fccb88;
+        }
+    }
+
+    &.three-stars {
+        &:before {
+            content: "Keystone Upgraded +3"
+        }
+        svg {
+            fill: #fccb88;
+        }
+    }
+}
+
+.affixes {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    margin: 10px 0 0;
+
+
+    li {
+        width: 20px;
+        height: 20px;
+        position: relative;
+        margin: 0;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 5px;
+        backface-visibility: hidden;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        span {    
+            position: absolute;
+            bottom: 100%;
+            background: white;
+            color: $background-color;
+            padding: 5px;
+            border-radius: 5px;
+            text-transform: uppercase;
+            font-size: 12px;
+            font-weight: bold;
+            letter-spacing: 0.05em;
+            opacity: 0;
+            transition: opacity 0.2s ease, transform 0.4s ease;
+            pointer-events: none;
+            transform: translate(-50%, -25px);
+            left: 50%;
+            backface-visibility: hidden;
+
+            &:after {
+                content: "";
+                position: absolute;
+                top: 100%;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 0; 
+                height: 0; 
+                border-left: 10px solid transparent;
+                border-right: 10px solid transparent;
+                border-top: 10px solid white;
+                pointer-events: none;
+            }
+        }
+
+        &:hover span {
+            opacity: 1;
+            transform: translate(-50%, -15px);
+        }
+    }
+    .awakened {
+        background-image: url(../images/affixes/awakened.jpg);
+    }
+    .bolstering {
+        background-image: url(../images/affixes/bolstering.jpg);
+    }
+    .bursting {
+        background-image: url(../images/affixes/bursting.jpg);
+    }
+    .explosive {
+        background-image: url(../images/affixes/explosive.jpg);
+    }
+    .fortified {
+        background-image: url(../images/affixes/fortified.jpg);
+    }
+    .grievous {
+        background-image: url(../images/affixes/grievous.jpg);
+    }
+    .necrotic {
+        background-image: url(../images/affixes/necrotic.jpg);
+    }
+    .quaking {
+        background-image: url(../images/affixes/quaking.jpg);
+    }
+    .raging {
+        background-image: url(../images/affixes/raging.jpg);
+    }
+    .sanguine {
+        background-image: url(../images/affixes/sanguine.jpg);
+    }
+    .skittish {
+        background-image: url(../images/affixes/skittish.jpg);
+    }
+    .teeming {
+        background-image: url(../images/affixes/teeming.jpg);
+    }
+    .tyrannical {
+        background-image: url(../images/affixes/tyrannical.jpg);
+    }
+    .volcanic {
+        background-image: url(../images/affixes/volcanic.jpg);
+    }
+}
+
+.dungeon-group {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dungeon-group-icon {
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+
+    @media (min-width: 1200px) {
+        font-size: 16px;
+    }
+}
+.dungeon-group-icon:before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+}
+.dungeon-group-icon--tank:before {
+    background-image: url(../images/group/tank.png);
+}
+
+.dungeon-group-icon--healer:before {
+    background-image: url(../images/group/healer.png);
+}
+
+.dungeon-group-icon--dps:before {
+    background-image: url(../images/group/dps.png);
+}
+
+.docs .dungeon-name {
+    color: white;
+    font-family: $base-font-family;
+    text-transform: uppercase;
+    margin-left: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+}
+.dungeon-level {
+    color: $brand-color;
+    margin-right: 10px;
+}
+
+.dungeon-details__container {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    flex-wrap: wrap;
+
+    .timer {
+        display: flex;
+        align-items: center;
+        margin: 10px 20px 0 0;
+    }
+
+    .timer__time {
+        margin-right: 20px;
+        display: flex;
+        line-height: 1;
+        align-items: center;
+        color: rgba(255,255,255,0.5);
+        position: relative;
+
+        &:hover {
+            .duration-tooltip {
+                opacity: 1;
+                transform: translate(-50%, -15px);
+            }
+        }
+    }
+
+    .timer__time svg {
+        fill: rgba(255,255,255,0.5);
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+    }
+
+}
+
+
+
+.duration-tooltip {    
+    position: absolute;
+    bottom: 100%;
+    background: white;
+    color: $background-color;
+    padding: 5px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    opacity: 0;
+    transition: opacity 0.2s ease, transform 0.4s ease;
+    pointer-events: none;
+    transform: translate(-50%, -25px);
+    left: 50%;
+    backface-visibility: hidden;
+    white-space: nowrap;
+    line-height: initial;
+
+    &:after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0; 
+        height: 0; 
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid white;
+        pointer-events: none;
+    }
+}
+
+.timestamp {    
+    position: absolute;
+    background: white;
+    color: $background-color;
+    padding: 5px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    opacity: 0;
+    transition: opacity 0.2s ease, transform 0.4s ease;
+    pointer-events: none;
+    transform: translate(25px, -50%);
+    left: 100%;
+    backface-visibility: hidden;
+    white-space: nowrap;
+    line-height: initial;
+    top: 50%;
+
+    &:after {
+        content: "";
+        position: absolute;
+        left: -7px;
+        transform: translate(0, -50%);
+        width: 0; 
+        top: 50%;
+        height: 0; 
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-right: 10px solid white;
+        pointer-events: none;
+    }
+}
+
+.date-information__container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+
+    svg {
+        fill: rgba(255, 255, 255, 0.5);
+        width: 20px;
+        height: 15px;
+        margin-right: 5px;
+    }
+}
+
+.date-information {
+    position: relative;
+    color: rgba(255,255,255,0.5);
+    display: inline;
+    &:hover {
+        .timestamp {
+            opacity: 1;
+            transform: translate(15px, -50%);
+        }
+    }
+
+}
+
+
+@media (max-width: 800px) {
+    .dungeon-name {
+        text-align: center;
+    }
+
+    .dungeon-details__container, .date-information__container, .dungeon-group {
+        justify-content: center;
+    }
+}
+
+.leaderboard-description {
+    background: rgba(255, 255, 255, 0.05);
+    font-size: 16px;
+    padding: 20px;
+    border: 5px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    margin-top: -5rem;
+    color: rgba(255,255,255,0.4);
+}
