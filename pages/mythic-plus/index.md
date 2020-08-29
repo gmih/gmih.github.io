@@ -5,7 +5,7 @@ weight: 1
 nav: yes
 permalink: mythic-plus/
 ---
-<p class="leaderboard-description">Team up with at least 2 other guild members to qualify for this leaderboard. Guilds runs reset every Mythic+ season.</p>
+<p class="leaderboard-description">Team up with at least 2 other guild members to qualify for this leaderboard. Resets every Mythic+ season.</p>
 <ol id="gmih-leaderboard"></ol>
 <script>
   var dungeonInfo = {

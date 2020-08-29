@@ -1922,4 +1922,28 @@ span.raid-meter-label {
     text-align: center;
     margin-top: -5rem;
     color: rgba(255,255,255,0.4);
+    counter-reset: guildRun;
+}
+
+// counter
+.guild-run {
+    position: relative;
+}
+.guild-run:after {
+    counter-increment: guildRun;
+    content: counter(guildRun);
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    height: 40px;
+    width: 40px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: rgba(255,255,255,0.5);
+    line-height: 1;
+    font-family: Cinzel;
+    font-weight: bold;
 }
