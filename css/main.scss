@@ -640,8 +640,8 @@ span.raid-meter-label {
     top:0;
     left:0;
     -webkit-backface-visibility: hidden;
-    -webkit-transform: translateZ(0);
     backface-visibility: hidden;
+    -webkit-transform: translateZ(0);
     transform: translateZ(0);
     background:#1B2030 url('../images/sl-large2.jpg') 50% 0 no-repeat;
     background-size: auto 120vh;
@@ -1448,7 +1448,11 @@ span.raid-meter-label {
     padding: 5px;
     margin: 0 0 20px;
     box-shadow: 0 2px 5px rgba(0,0,0,1);
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
 
     &.guild-run--motherlode {
         background-image: url(../images/dungeons/the-motherlode.jpg);
@@ -1526,6 +1530,7 @@ span.raid-meter-label {
     display: flex;
     width: 45px;
     position: relative;
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 
     &:before {
@@ -1545,6 +1550,7 @@ span.raid-meter-label {
         pointer-events: none;
         transform: translate(-50%, -25px);
         left: 50%;
+        -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
         white-space: nowrap;
     }
@@ -1562,6 +1568,7 @@ span.raid-meter-label {
         border-top: 10px solid white;
         transition: opacity 0.2s ease, transform 0.4s ease;
         opacity: 0;
+        -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
         pointer-events: none;
     }
@@ -1627,6 +1634,7 @@ span.raid-meter-label {
         background-size: contain;
         background-repeat: no-repeat;
         margin-right: 5px;
+        -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
 
         &:last-child {
@@ -1649,6 +1657,7 @@ span.raid-meter-label {
             pointer-events: none;
             transform: translate(-50%, -25px);
             left: 50%;
+            -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
 
             &:after {
@@ -1824,6 +1833,7 @@ span.raid-meter-label {
     pointer-events: none;
     transform: translate(-50%, -25px);
     left: 50%;
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     white-space: nowrap;
     line-height: initial;
@@ -1858,6 +1868,7 @@ span.raid-meter-label {
     pointer-events: none;
     transform: translate(25px, -50%);
     left: 100%;
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     white-space: nowrap;
     line-height: initial;
