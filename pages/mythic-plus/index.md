@@ -184,18 +184,29 @@ function timeDiff(curr, prev) {
     }).forEach(function(guildRun) {
       var stars = "";
       var group = {
-        tank: "",
-        healer: "",
+        tank: {
+        },
+        healer: {
+        },
         dps: []
       };
-      var groupMembers = [[guildRun.Member1, guildRun["Member1-Spec"]], [guildRun.Member2, guildRun["Member2-Spec"]], [guildRun.Member3, guildRun["Member3-Spec"]], [guildRun.Member4, guildRun["Member4-Spec"]], [guildRun.Member5, guildRun["Member5-Spec"]]];
+      var groupMembers = [[guildRun.Member1, guildRun["Member1-Spec"], guildRun["Member1-Guild"]], [guildRun.Member2, guildRun["Member2-Spec"], guildRun["Member2-Guild"]], [guildRun.Member3, guildRun["Member3-Spec"], guildRun["Member3-Guild"]], [guildRun.Member4, guildRun["Member4-Spec"], guildRun["Member4-Guild"]], [guildRun.Member5, guildRun["Member5-Spec"], guildRun["Member5-Guild"]]];
       groupMembers.forEach(function(member) {
         if (tankSpecs.includes(member[1])) {
-          group.tank = decodeURIComponent(member[0]);
+          group.tank = {
+            name: decodeURIComponent(member[0]),
+            member: member[2]
+          };
         } else if (healerSpecs.includes(member[1])) {
-          group.healer = decodeURIComponent(member[0]);
+          group.healer = {
+            name: decodeURIComponent(member[0]),
+            member: member[2]
+          }
         } else {
-          group.dps.push(decodeURIComponent(member[0]));
+          group.dps.push({
+            name:decodeURIComponent(member[0]),
+            member: member[2]
+          });
         }
       });
       
@@ -233,11 +244,11 @@ function timeDiff(curr, prev) {
         </div>
       </div>
       <ul class="dungeon-group">
-        <li class="dungeon-group-icon dungeon-group-icon--tank">${group.tank}</li>
-        <li class="dungeon-group-icon dungeon-group-icon--healer">${group.healer}</li>
-        <li class="dungeon-group-icon dungeon-group-icon--dps">${group.dps[0]}</li>
-        <li class="dungeon-group-icon dungeon-group-icon--dps">${group.dps[1]}</li>
-        <li class="dungeon-group-icon dungeon-group-icon--dps">${group.dps[2]}</li>   
+        <li class="dungeon-group-icon dungeon-group-icon--tank member--${group.tank.member}">${group.tank.name}</li>
+        <li class="dungeon-group-icon dungeon-group-icon--healer member--${group.healer.member}">${group.healer.name}</li>
+        <li class="dungeon-group-icon dungeon-group-icon--dps member--${group.dps[0].member}">${group.dps[0].name}</li>
+        <li class="dungeon-group-icon dungeon-group-icon--dps member--${group.dps[1].member}">${group.dps[1].name}</li>
+        <li class="dungeon-group-icon dungeon-group-icon--dps member--${group.dps[2].member}">${group.dps[2].name}</li>   
       </ul></div>`;
 
       run.innerHTML = runHTML;
