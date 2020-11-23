@@ -257,6 +257,24 @@ img {
     border: 5px solid $background-color-light;
 }
 
+article ul:not(.affixes):not(.dungeon-group) {
+    list-style-type: none;
+
+    li {
+        position: relative;
+        &:before {
+            content: "";
+            display: inline-block;
+            background: url(../images/sword.png) no-repeat left center;
+            width: 20px;
+            height: 1.6875em;
+            position: absolute;
+            top: 0;
+            left: -30px; 
+        }
+    }
+}
+
 /* When a video is inside the fitvids wrapper, drop the
 margin on the iframe, cause it breaks stuff. */
 
@@ -1964,4 +1982,93 @@ span.raid-meter-label {
 
 .member--false {
     opacity: 0.6;
+}
+// Officers on Homepage
+.officers {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    @media (min-width: 720px) {
+        justify-content: flex-start;
+    }
+}
+
+.officers li {
+    display: flex;
+    flex-direction: column;
+    background: rgba(0,0,0,0.5);
+    padding: 20px 20px 10px;
+    margin: 10px 0;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.6);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+
+    &:before {
+        content: unset;
+    }
+    @media (min-width: 720px) {
+        
+        margin: 10px 20px;
+
+        &:first-child {
+            margin-left: 0;
+        }
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+.cesar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+    @media (min-width: 720px) {
+        justify-content: space-between;
+    }
+
+}
+
+.cesar-description {
+    @media (min-width: 720px) {
+
+        width: calc(100% - 260px);
+
+        h3 {
+            margin-top: 0;
+        }
+
+        p {
+            margin-bottom: 0;
+        }
+    }
+}
+.officers.cesar-image {
+    display: inline-flex;
+    li {
+        margin: 0;
+    }
+}
+
+.officers li:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.officers img {
+    width: 200px;
+    border:none;
+}
+
+.officers p {
+    font-size: 16px;
+    margin: 20px 0 10px;
 }

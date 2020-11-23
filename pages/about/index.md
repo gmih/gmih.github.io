@@ -7,7 +7,7 @@ permalink: about/
 ---
 
 
-Great Moments in History is a semi-casual raiding guild. We raid every Friday night from 6pm-9pm PT and Saturday mornings from 9am-Noon PT. We also regularly run Mythic+ dungeons together.
+Great Moments in History is a semi-casual raiding guild. We raid every Friday night from 6pm-9pm PT and Saturday mornings from 9am-Noon PT. We also regularly run <a href="/mythic-plus">Mythic+ dungeons</a> together.
 
 Originally formed in January of 2008 on Destromath, Great Moments in History rerolled as an Alliance guild on Proudmoore in September of 2015. Many of our members started playing in Vanilla, and we’re a “serious raiding guild”-turned-”casual raiding guild” (with the love of min-maxing firmly intact). We’re a mature group of players looking for friendly (and competent) team members to fill out our roster for raiding.
 
@@ -15,36 +15,29 @@ Originally formed in January of 2008 on Destromath, Great Moments in History rer
 
 ## Guild Ranks
 
-### César - Guild Master
-Mortsubites, like any good dictator, was once voted into this position but failed to ever relinquish it.  Luckily he is supported by some excellent officers so he can focus on summoning undead from his unholy throne (or icy...if it gets buffs).
+### César
+Milou, like any good dictator, was once voted into this position but failed to ever relinquish it.  Luckily he is supported by some excellent officers so he can focus on raining down destruction from his icy throne.
 
-### Senator - Guild Officer
-These members contribute to the guild in special roles and help keep the guild running.
-
-- Mortsubites
-  - GM and Raid Lead
-  - Official t-minus score keeper.
-- Rissi
-  - Guild/Raid Organizer
-  - Cat Herder
-- Interficiens
-  - Guild/Raid Organizer
-  - Official Bookkeeper
+### Senator
+Exanimo and Rissie contribute to the guild in leadership roles and help keep the guild running.
 
 
-### Legionnaire - Core Raid Member
+### Legionnaire
 Legionnaires are our core raid members. They show up on time and prepared, rarely have to miss a raid night, and perform to the level expected of them given their role and class. In return, they get free guild repairs, loot priority over trial members, and the knowledge that their life is more complete being on the &lt;GMiH&gt; raid team.
 
 Rank changes to Legionnaire are discussed after raids and are based on not only meeting minimum ilvl but performing well and meeting attendance goals.
 
-### Social
-This is our friends and family guild rank. Social rank members can transition to Legionnaire rank by letting an officer know that they want to raid and completing a short trial.
+### Gladiator
+Gladiators are new guild members who are trialing to become Legionnaires. After a 4-raid probationary period, they can become full-fledged Legionnaires.
 
 ### Senator Servant
 Officer Alts.
 
+### Social
+This is our friends and family guild rank. Social rank members can transition to Legionnaire rank by letting an officer know that they want to raid and completing a short trial.
+
 ### Servant
 Legionnaire and Social Alts.
 
-### Gladiator
-Gladiators are new guild members who are trialing to become Legionnaires. After a 4-raid probationary period, they can become full-fledged Legionnaires.
+### Unranked
+New guildies who haven't been added to another rank yet. Please please please, for the love of everything shiny, change your guild note to reflect who you are so that Rissi doesn't just gkick you out of frustration of not knowing what actual rank to give you.
