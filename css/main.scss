@@ -1519,6 +1519,38 @@ span.raid-meter-label {
     &.guild-run--tol-dagor {
         background-image: url(../images/dungeons/tol-dagor.jpg);
     }
+
+    &.guild-run--mists-of-tirna-scithe {
+        background-image: url(../images/dungeons/mists-of-tirna-scithe.jpg);
+    }
+
+    &.guild-run--the-necrotic-wake {
+        background-image: url(../images/dungeons/the-necrotic-wake.jpg);
+    }
+
+    &.guild-run--de-other-side {
+        background-image: url(../images/dungeons/de-other-side.jpg);
+    }
+
+    &.guild-run--sanguine-depths {
+        background-image: url(../images/dungeons/sanguine-depths.jpg);
+    }
+
+    &.guild-run--halls-of-atonement {
+        background-image: url(../images/dungeons/halls-of-atonement.jpg);
+    }
+
+    &.guild-run--plaguefall {
+        background-image: url(../images/dungeons/plaguefall.jpg);
+    }
+
+    &.guild-run--spires-of-ascension {
+        background-image: url(../images/dungeons/spires-of-ascension.jpg);
+    }
+
+    &.guild-run--theater-of-pain {
+        background-image: url(../images/dungeons/theater-of-pain.jpg);
+    }
   }
 
   .guild-run__container {
@@ -1740,6 +1772,18 @@ span.raid-meter-label {
     }
     .volcanic {
         background-image: url(../images/affixes/volcanic.jpg);
+    }
+    .inspiring {
+        background-image: url(../images/affixes/inspiring.jpg);
+    }
+    .spiteful {
+        background-image: url(../images/affixes/spiteful.jpg);
+    }
+    .storming {
+        background-image: url(../images/affixes/storming.jpg);
+    }
+    .prideful {
+        background-image: url(../images/affixes/prideful.jpg);
     }
 }
 

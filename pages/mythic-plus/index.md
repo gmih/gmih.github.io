@@ -5,81 +5,57 @@ weight: 1
 nav: yes
 permalink: mythic-plus/
 ---
-<p class="leaderboard-description">Team up with at least 2 other guild members to qualify for this leaderboard. Resets every Mythic+ season.</p>
+<p class="leaderboard-description">Shadowlands Leaderboard Coming Soon!<br>Team up with at least 2 other guild members to qualify for this leaderboard. Resets every Mythic+ season.</p>
 <ol id="gmih-leaderboard"></ol>
 <script>
   var dungeonInfo = {
-    "Atal'Dazar": {
+    "Mists of Tirna Scithe": {
       "1-star": 1800000,
       "2-stars": 1440000,
       "3-stars": 1080000,
-      safeName: 'atal-dazar'
+      safeName: 'mists-of-tirna-scithe'
     },
-    "Freehold": {
-      "1-star": 1980000,
-      "2-stars": 1584000,
-      "3-stars": 1188000,
-      safeName: 'freehold'
+    "The Necrotic Wake": {
+      "1-star": 2160000,
+      "2-stars": 1728000,
+      "3-stars": 1296000,
+      safeName: 'the-necrotic-wake'
     },
-    "Kings' Rest": {
-      "1-star": 2520000,
-      "2-stars": 2016000,
-      "3-stars": 1512000,
-      safeName: 'kings-rest'
+    "De Other Side": {
+      "1-star": 2340000,
+      "2-stars": 1872000,
+      "3-stars": 1404000,
+      safeName: 'de-other-side'
     },
-    "Operation: Mechagon - Junkyard": {
+    "Halls of Atonement": {
+      "1-star": 1860000,
+      "2-stars": 1488000,
+      "3-stars": 1116000,
+      safeName: 'halls-of-atonement'
+    },
+    "Plaguefall": {
       "1-star": 2280000,
       "2-stars": 1824000,
-      "3-stars": 1358000,
-      safeName: 'junkyard'
+      "3-stars": 1368000,
+      safeName: 'plaguefall'
     },
-    "Operation: Mechagon - Workshop": {
-      "1-star": 1920000,
-      "2-stars": 1536000,
-      "3-stars": 1152000,
-      safeName: 'workshop'
+    "Sanguine Depths": {
+      "1-star": 2460000,
+      "2-stars": 1968000,
+      "3-stars": 1476000,
+      safeName: 'sanguine-depths'
     },
-    "Shrine of the Storm": {
-      "1-star": 2520000,
-      "2-stars": 2016000,
-      "3-stars": 1512000,
-      safeName: 'shrine'
-    },
-    "Siege of Boralus": {
-      "1-star": 2160000,
-      "2-stars": 1728000,
-      "3-stars": 1296000,
-      safeName: 'siege'
-    },
-    "Temple of Sethraliss": {
-      "1-star": 2160000,
-      "2-stars": 1728000,
-      "3-stars": 1296000,
-      safeName: 'temple'
-    },
-    "The MOTHERLODE!!": {
+    "Spires of Ascension": {
       "1-star": 2340000,
       "2-stars": 1872000,
       "3-stars": 1404000,
-      safeName: 'motherlode'
+      safeName: 'spires-of-ascension'
     },
-    "The Underrot": {
-      "1-star": 1980000,
-      "2-stars": 1584000,
-      "3-stars": 1188000,
-      safeName: 'underrot'
-    },
-    "Tol Dagor": {
-      "1-star": 2160000,
-      "2-stars": 1728000,
-      "3-stars": 1296000,
-      safeName: 'tol-dagor'
-    },
-    "Waycrest Manor": {
-      "1-star": 2340000,
-      "2-stars": 1872000,
-      "3-stars": 1404000,
-      safeName: 'waycrest-manor'
+    "Theater of Pain": {
+      "1-star": 2220000,
+      "2-stars": 1776000,
+      "3-stars": 1332000,
+      safeName: 'theater-of-pain'
     }
   }
 
