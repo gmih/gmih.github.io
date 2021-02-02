@@ -63,4 +63,4 @@ We use personal loot with the following expectations:
 - Players who see an item up for grabs in raid chat can roll for it.
 - Players should <strong>not</strong> whisper their fellow players about loot. <strong>If you don't see it in raid chat, it's not up for grabs.</strong>
 
-BoEs that drop during the raid will be sold on the Auction House to help fund potions, flasks, food, repairs, and more. The guild bank will take 50% and split the remaining 50% among players in the raid each week.
+BoEs that drop during the raid will be sold on the Auction House to help fund potions, flasks, food, repairs, and more. If a player would like to buy a BOE from the guild they can do so at 50% of current market value.
