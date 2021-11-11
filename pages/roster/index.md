@@ -3,6 +3,6 @@ layout: page
 title: Roster
 weight: 1
 redirect_to:
-  - https://docs.google.com/spreadsheets/u/3/d/e/2PACX-1vSwp2weG4gK-O-_XzRPm7RI92qpkb3uXJXSKLvXEd_n3Niwkuneyx23N9VWOOIXTnCQm3uP4FC9wv3c/pubhtml
+  - https://docs.google.com/spreadsheets/d/e/2PACX-1vQx1AaR6lFtK8FkWjgQ6pmdRHO3sUT6H2kdlnlXEsp-xxGsc_f9wHrZmrOMJNx81oPPMtcjczPUvn9u/pubhtml
 permalink: roster/
 ---
