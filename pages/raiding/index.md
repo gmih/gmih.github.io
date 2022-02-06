@@ -15,11 +15,12 @@ permalink: raiding/
 - Study up on strategies before the raid.
 - Install and use Discord.
 - Install and use [DBM](https://mods.curse.com/addons/wow/deadly-boss-mods) (or Big Wigs).
+- Install and use RCLootCouncil.
 - Have a good attitude. Everyone gets frustrated, but don’t take it out on your teammates.
 
 ### Outside of Raid
-- Try to run at least 1 Mythic+ each week. Reach out to officers if you're having trouble getting a group together.
-- Do your in-game chores. Whether that’s the AP flavor of the xpac, reputation, World Quests or more. Get an accountability buddy if you need one.
+- Run at least one 15+ Mythic+ dungeon each week to receive the maximum ilvl reward from the Great Vault.
+- Do your in-game chores. Whether that’s killing rares, farming reputation, doing World Quests or more.
 
 
 <div class="astrodivider"><div class="astrodividermask"></div><span><i><svg height='100%' width='100%'  fill="#4A90E2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path d="M438,411.3l-37.6-37.6c0.1-0.2,0.1-0.2,0.1-0.4c9.7-20.8,6.2-46.3-11-63.5L363,336.3l-80.5-80.5l96.6-96.6  c24-24,37.5-56.6,37.5-90.5L256,229.3L95.4,68.7c0,34,13.5,66.5,37.5,90.5l96.6,96.6L149,336.3l-26.5-26.5  c-17.2,17.2-20.7,42.7-11,63.5c0.1,0.2,0.1,0.2,0.1,0.4L74,411.3c-7.3,7.3-7.3,19.2,0,26.5c7.3,7.3,19.2,7.3,26.5,0l37.6-37.6  c0.2,0.1,0.2,0.1,0.4,0.1c20.8,9.7,46.3,6.2,63.5-11l-26.5-26.5l80.5-80.5l80.5,80.5L310,389.4c17.2,17.2,42.7,20.7,63.5,11  c0.1-0.1,0.2-0.1,0.4-0.1l37.6,37.6c7.3,7.3,19.2,7.3,26.5,0C445.3,430.5,445.3,418.6,438,411.3z"></path></svg></i></span></div>
@@ -48,9 +49,9 @@ If you’re going to miss a raid, please post in the “Truancy” Discord chann
 <div class="astrodivider"><div class="astrodividermask"></div><span><i><svg height='100%' width='100%'  fill="#4A90E2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path d="M438,411.3l-37.6-37.6c0.1-0.2,0.1-0.2,0.1-0.4c9.7-20.8,6.2-46.3-11-63.5L363,336.3l-80.5-80.5l96.6-96.6  c24-24,37.5-56.6,37.5-90.5L256,229.3L95.4,68.7c0,34,13.5,66.5,37.5,90.5l96.6,96.6L149,336.3l-26.5-26.5  c-17.2,17.2-20.7,42.7-11,63.5c0.1,0.2,0.1,0.2,0.1,0.4L74,411.3c-7.3,7.3-7.3,19.2,0,26.5c7.3,7.3,19.2,7.3,26.5,0l37.6-37.6  c0.2,0.1,0.2,0.1,0.4,0.1c20.8,9.7,46.3,6.2,63.5-11l-26.5-26.5l80.5-80.5l80.5,80.5L310,389.4c17.2,17.2,42.7,20.7,63.5,11  c0.1-0.1,0.2-0.1,0.4-0.1l37.6,37.6c7.3,7.3,19.2,7.3,26.5,0C445.3,430.5,445.3,418.6,438,411.3z"></path></svg></i></span></div>
 
 ### Behavior
-- While we are a mature guild that allows mature (or rather immature) humor and profanity, please help keep the guild a harassment-free space for everyone. &lt;Great Moments in History&gt; prohibits harassment based on performance, gender, gender identity and expression, sexual orientation, disability, body size, race, or religion (or lack thereof). If someone asks you to stop, apologize and move on.
+- While we are a mature guild that allows mature (or rather immature) humor and profanity, please help keep the guild a harassment-free space for everyone. &lt;Great Moments in History&gt; prohibits harassment based on performance, gender, gender identity and expression, sexual orientation, disability, body size, race, or religion (or lack thereof). If someone asks you to stop, apologize and correct your behavior.
 
-- If you are having issues with another raid member, please contact an officer to resolve the issue. Officers would appreciate you waiting until after the raid is over unless the issue must be taken care of right away.
+- If you are having issues with another raid member, please contact an officer to resolve the issue. Officers would appreciate you waiting until after the raid is over unless the issue must be taken care of right away. This helps officers to make sure that they give the matter the time and attention that is needed.
 
 - Act maturely and responsibly in and outside of raid. You are a representative of our guild, and our guild treats everyone with respect.
 
@@ -58,9 +59,8 @@ If you’re going to miss a raid, please post in the “Truancy” Discord chann
 
 ## Loot
 
-We use personal loot with the following expectations:
-- Players who can trade loot and don't want the item themselves will link the item in raid chat and ask people to roll for it.
-- Players who see an item up for grabs in raid chat can roll for it.
-- Players should <strong>not</strong> whisper their fellow players about loot. <strong>If you don't see it in raid chat, it's not up for grabs.</strong>
+We use RCLootCouncil to help coordinate personal loot in our raids.
+- Players with tradeable loot can offer up their loot to the raid.
+- If there is tradeable loot, you are given the option of rolling for it through RCLootCouncil.
 
 BoEs that drop during the raid will be sold on the Auction House to help fund potions, flasks, food, repairs, and more. If a player would like to buy a BOE from the guild they can do so at 50% of current market value.
