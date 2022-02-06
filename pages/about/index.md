@@ -19,25 +19,25 @@ Originally formed in January of 2008 on Destromath, Great Moments in History rer
 Milou, like any good dictator, was once voted into this position but failed to ever relinquish it.  Luckily he is supported by some excellent officers so he can focus on raining down destruction from his icy throne.
 
 ### Senator
-Exanimo and Rissie contribute to the guild in leadership roles and help keep the guild running.
+Reason, Interficiens, Qaliri, and Rissie contribute to the guild in leadership roles and help keep the guild running.
 
 
 ### Legionnaire
 Legionnaires are our core raid members. They show up on time and prepared, rarely have to miss a raid night, and perform to the level expected of them given their role and class. In return, they get free guild repairs, loot priority over trial members, and the knowledge that their life is more complete being on the &lt;GMiH&gt; raid team.
 
-Rank changes to Legionnaire are discussed after raids and are based on not only meeting minimum ilvl but performing well and meeting attendance goals.
+Rank changes to Legionnaire are discussed after raids and are based on not only meeting minimum criteria but performing well and meeting attendance goals.
 
 ### Gladiator
 Gladiators are new guild members who are trialing to become Legionnaires. After a 4-raid probationary period, they can become full-fledged Legionnaires.
 
-### Senator Servant
-Officer Alts.
-
 ### Social
 This is our friends and family guild rank. Social rank members can transition to Legionnaire rank by letting an officer know that they want to raid and completing a short trial.
+
+### Senator Servant
+Officer Alts.
 
 ### Servant
 Legionnaire and Social Alts.
 
 ### Unranked
-New guildies who haven't been added to another rank yet. Please please please, for the love of everything shiny, change your guild note to reflect who you are so that Rissi doesn't just gkick you out of frustration of not knowing what actual rank to give you.
+New guildies who haven't been added to another rank yet. Please please please, for the love of everything shiny, change your guild note to reflect who you are so that Rissie doesn't just gkick you out of frustration of not knowing what actual rank to give you.
