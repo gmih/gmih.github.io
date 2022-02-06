@@ -27,8 +27,13 @@ Legionnaires are our core raid members. They show up on time and prepared, rarel
 
 Rank changes to Legionnaire are discussed after raids and are based on not only meeting minimum criteria but performing well and meeting attendance goals.
 
-### Gladiator
-Gladiators are new guild members who are trialing to become Legionnaires. After a 4-raid probationary period, they can become full-fledged Legionnaires.
+### Gladiator (Trial Rank)
+Gladiators are new guild members who are trialing to become Legionnaires. After a 2-week probationary period (sometimes extended), they can become full-fledged Legionnaires.
+
+During the probationary period, Gladiators are evaluated and given feedback on:
+- how they fit in with the guild
+- how well they do mechanics
+- how well they perform in their role
 
 ### Social
 This is our friends and family guild rank. Social rank members can transition to Legionnaire rank by letting an officer know that they want to raid and completing a short trial.
