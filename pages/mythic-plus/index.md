@@ -56,6 +56,18 @@ permalink: mythic-plus/
       "2-stars": 1776000,
       "3-stars": 1332000,
       safeName: 'theater-of-pain'
+    },
+    "Tazavesh: Streets of Wonder": {
+      "1-star": 2280000,
+      "2-stars": 1824000,
+      "3-stars": 1368000,
+      safeName: 'streets-of-wonder'
+    },
+    "Tazavesh: So'leah's Gambit": {
+      "1-star": 1800000,
+      "2-stars": 1440000,
+      "3-stars": 1080000,
+      safeName: 'soleahs-gambit'
     }
   }
 
