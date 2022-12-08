@@ -7,7 +7,7 @@ permalink: about/
 ---
 
 
-Great Moments in History is a Heroic-only raiding guild. We raid every Friday night from 6pm-9pm PT and Saturday mornings from 9am-Noon PT. We also regularly run <a href="/mythic-plus">Mythic+ dungeons</a> together.
+Great Moments in History is a Heroic-only raiding guild. We raid every Friday night from 6pm-9pm PT and Saturday mornings from 9am-Noon PT. We also regularly run Mythic+ together.
 
 Originally formed in January of 2008 on Destromath, Great Moments in History rerolled as an Alliance guild on Proudmoore in September of 2015. Many of our members started playing in Vanilla, and we’re a “serious raiding guild”-turned-”casual raiding guild” (with the love of min-maxing firmly intact). We’re a mature group of players looking for friendly (and competent) team members to fill out our roster for raiding.
 
@@ -16,10 +16,10 @@ Originally formed in January of 2008 on Destromath, Great Moments in History rer
 ## Guild Ranks
 
 ### César
-Milou, like any good dictator, was once voted into this position but failed to ever relinquish it.  Luckily he is supported by some excellent officers so he can focus on raining down destruction from his icy throne.
+Milou, like any good dictator, was once voted into this position but failed to ever relinquish it.  Luckily he is supported by an excellent team (that gets the real work done).
 
 ### Senator
-Reason, Interficiens, Qaliri, and Rissie contribute to the guild in leadership roles and help keep the guild running.
+Senators contribute to the guild in leadership roles and help keep the guild running.
 
 
 ### Legionnaire
