@@ -363,7 +363,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .home-section.raiding {
-    background-image: linear-gradient(rgba(7,15,25,0.5) 0%,rgba(7,15,25,0.5) 100%),url('../images/shadowlands.jpg');
+    background-image: linear-gradient(rgba(7,15,25,0.5) 0%,rgba(7,15,25,0.5) 100%),url('../images/dragonflight.jpeg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -613,7 +613,7 @@ span.raid-meter-label {
     // background-image: linear-gradient(
     //     rgba(7, 15, 25, 0.45), 
     //     rgba(7, 15, 25, 0.45)
-    //   ),url('../images/shadowlands.jpg');
+    //   ),url('../images/dragonflight.jpeg');
 }
 
 .main-header .page-title, .main-header .page-description {
@@ -626,7 +626,10 @@ span.raid-meter-label {
     text-align: center;
     background: #070f19;
     padding-bottom: 100px;
-    background-image: linear-gradient(rgba(0,0,0,.5) 0%, rgba(0,0,0,0.5) 100%),url(../images/shadowlands.jpg);
+    background-image: linear-gradient(
+         rgba(7, 15, 25, 0.45), 
+         rgba(7, 15, 25, 0.45)
+       ),url(../images/dragonflight.jpeg);
     background-size: cover;
     background-position: bottom center;
     background-repeat: no-repeat;
@@ -647,7 +650,7 @@ span.raid-meter-label {
     bottom:0;
     left:0;
     z-index:-1;
-    background: linear-gradient(to bottom, rgba(7,15,25,0.22) 40%,rgba(7,15,25,1) 100%);
+    background: rgba(7,15,25, 80%);
 
 }
   .main-header:before {
@@ -661,11 +664,9 @@ span.raid-meter-label {
     backface-visibility: hidden;
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
-    background:#1B2030 url('../images/sl-large2.jpg') 50% 0 no-repeat;
+    background:#1B2030 url('../images/dragonflight.jpeg') 50% 0 no-repeat;
     background-size: auto 120vh;
     background-attachment:fixed;
-    animation: grow 180s linear 10ms infinite;
-    transition:all 0.4s ease-in-out;
     z-index:-2;
 
 }
