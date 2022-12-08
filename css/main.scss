@@ -363,7 +363,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .home-section.raiding {
-    background-image: linear-gradient(rgba(7,15,25,0.5) 0%,rgba(7,15,25,0.5) 100%),url('../images/dragonflight.jpeg');
+    background-image: linear-gradient(rgba(7,15,25,0.5) 0%,rgba(7,15,25,0.5) 100%),url('../images/dragonflight.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -613,7 +613,7 @@ span.raid-meter-label {
     // background-image: linear-gradient(
     //     rgba(7, 15, 25, 0.45), 
     //     rgba(7, 15, 25, 0.45)
-    //   ),url('../images/dragonflight.jpeg');
+    //   ),url('../images/dragonflight.jpg');
 }
 
 .main-header .page-title, .main-header .page-description {
@@ -629,7 +629,7 @@ span.raid-meter-label {
     background-image: linear-gradient(
          rgba(7, 15, 25, 0.45), 
          rgba(7, 15, 25, 0.45)
-       ),url(../images/dragonflight.jpeg);
+       ),url(../images/dragonflight.jpg);
     background-size: cover;
     background-position: bottom center;
     background-repeat: no-repeat;
@@ -650,7 +650,7 @@ span.raid-meter-label {
     bottom:0;
     left:0;
     z-index:-1;
-    background: rgba(7,15,25, 80%);
+    background: rgba(7,15,25,.8);
 
 }
   .main-header:before {
@@ -664,7 +664,7 @@ span.raid-meter-label {
     backface-visibility: hidden;
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
-    background:#1B2030 url('../images/dragonflight.jpeg') 50% 0 no-repeat;
+    background:#1B2030 url('../images/dragonflight.jpg') 50% 0 no-repeat;
     background-size: auto 120vh;
     background-attachment:fixed;
     z-index:-2;
