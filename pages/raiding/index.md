@@ -19,7 +19,7 @@ permalink: raiding/
 - Have a good attitude. Everyone gets frustrated, but don’t take it out on your teammates.
 
 ### Outside of Raid
-- Run at least one 15+ Mythic+ dungeon each week to receive the maximum ilvl reward from the Great Vault.
+- Run at least one Mythic+ dungeon each week to receive a reward from the Great Vault.
 - Do your in-game chores. Whether that’s killing rares, farming reputation, doing World Quests or more.
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Guild Mythic+ Leaderboard
 weight: 1
-nav: yes
 permalink: mythic-plus/
+redirect_to: /
 ---
 <p class="leaderboard-description">Team up with at least 2 other guild members to qualify for this leaderboard. Resets every Mythic+ season.</p>
 <ol id="gmih-leaderboard"></ol>
@@ -247,8 +247,8 @@ function timeDiff(curr, prev) {
   }
 
   document.addEventListener('DOMContentLoaded', function(event) {
-    fetch('/data/leaderboard.json')
+    <!-- fetch('/data/leaderboard.json')
       .then(response => response.json())
-      .then(data => createLeaderboard(data));
+      .then(data => createLeaderboard(data)); -->
   })
 </script>
